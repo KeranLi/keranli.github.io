@@ -82,21 +82,21 @@ analytics:
 author:
   name             : "Keran Li"
   avatar           : "profile.png"
-  bio              : "Digital Geoscience/Sedimentology Research worker"
-  location         : "Location"
+  bio              : "Using big data, deep learning and traditional geological knowledge to explore our earth."
+  location         : #"Location"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.hk/citations?user=lDnbOyEAAAAJ&hl=zh-CN"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : http://keranli.github.io
+  researchgate     : "https://www.researchgate.net/profile/Keran-Li-3?ev=hdr_xprf"
+  uri              : #"http://keranli.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : #"academicpages"
   google_plus      :
   keybase          :
   instagram        :
