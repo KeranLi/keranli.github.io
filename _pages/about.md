@@ -18,7 +18,7 @@ Now I'm training large-, pretrained, and foundational backbones for sedimentolog
 
 ## News
 
-- [09/2025] Congratulations! One paper about Weak Supervised Learning and Marginal Deployment was published on Computer and Computers and Geosciences.
+- [09/2025] Congratulations! One paper about Weak Supervised Learning and Marginal Deployment was published on Computers and Geosciences.
 - [04/2025] Congratulations! One paper about Dynamic Range Attention was published on IEEE GRSL.
 - [02/2025] Congratulations! One paper about Spectral Graph Convolution model was published on Petroleum Science.
 
