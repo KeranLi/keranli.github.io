@@ -10,7 +10,7 @@ paperurl: 'http://academicpages.github.io/files/Spectral.pdf'
 ---
 This study employs spectral graph convolution networks (GCNs) to predict microbialite lithology in the Dengying Formation's Moxi gas field. By integrating time-series and spectral data from conventional well logs, the GCN model outperforms other machine learning methods, achieving high accuracy (0.90) and F1-score (0.90). The results highlight the potential of GCNs in enhancing lithological classification and aiding petroleum exploration
 
-[Download paper here](http://github.com/KeranLi/keranli.github.io/files/Spectral.pdf)
+[Download paper here](https://github.com/KeranLi/keranli.github.io/blob/master/files/Spectral.pdf)
 
 Recommended citation:
 
