@@ -6,10 +6,18 @@ excerpt: 'This paper is about the application of spectral graph comvolution netw
 date: 2025-02-23
 venue: 'Petroleum Science'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Keran, Li. (2025). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+#citation: 'Keran, Li. (2025). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This study employs spectral graph convolution networks (GCNs) to predict microbialite lithology in the Dengying Formation's Moxi gas field. By integrating time-series and spectral data from conventional well logs, the GCN model outperforms other machine learning methods, achieving high accuracy (0.90) and F1-score (0.90). The results highlight the potential of GCNs in enhancing lithological classification and aiding petroleum exploration
 
 [Download paper here](http://academicpages.github.io/files/Spectral.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation:
+
+@article{li2025spectral,
+  title={Spectral graph convolution networks for microbialite lithology identification based on conventional well logs},
+  author={Li, Ke-Ran and Song, Jin-Min and Wang, Han and Yan, Hai-Jun and Liu, Shu-Gen and Lan, Yang and Jin, Xin and Ren, Jia-Xin and Zhao, Ling-Li and Tian, Li-Zhou and others},
+  journal={Petroleum Science},
+  year={2025},
+  publisher={Elsevier}
+}
