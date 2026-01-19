@@ -10,13 +10,19 @@ redirect_from:
 
 Currently, I'm a PhD student from [School of Earth Sciences and Engineering](https://es.nju.edu.cn/mainm.htm), [Nanjing University](https://www.pku.edu.cn/), supervised by Prof. Xiumian Hu and Dr. Anlin Ma. Before that, I received the M.Sc degree of Petroleum Geology in 2023 and B. Eng degree of Petroleum Geology in 2020 at Chengdu University of Technology, supervised by Prof. Jinmin Song.
 
-My research interest includes Sedimentary applications busing computer vision, machine learning, deep learning. Also, I do some researches about geochemical sedimentolgy in Carbonate via major/trace elements, carbonate U-Pb dating, C-O-Sr-Ca-Mg-Triple isptopes and corresponding modeling. Before geochemical analysis, I take careful analysis in field investigation, microscopic thin-section observation, CL and SEM analysis.
+My research interest includes Sedimentary applications busing computer vision, machine learning, deep learning. Also, I do some researches about geochemical sedimentolgy in carbonate via major/trace elements, carbonate U-Pb dating, C-O-Sr-Ca-Mg-Triple oxygen isotopes and corresponding modeling. Before geochemical analysis, I take careful analysis in field investigation, microscopic thin-section observation, CL and SEM analysis.
 
-Now I'm training large-, pretrained, and foundational backbones for sedimentology. Also, I'm using mutiple isotopic proxies to explore the Tibet plateau. For contacting, you can use [Email](keranli98@outlook.com)/[Github](https://github.com/KeranLi).
+Now I'm training large-, pretrained, and foundational backbones for sedimentology. Also, I'm using mutiple isotopic proxies to explore the Tibet plateau.
 
 ---
 
 ## News
+
+- [09/2025] Congratulations! One paper about Weak Supervised Learning and Marginal Deployment was published on Computer and Computers and Geosciences.
+- [04/2025] Congratulations! One paper about Dynamic Range Attention was published on IEEE GRSL.
+- [02/2025] Congratulations! One paper about Spectral Graph Convolution model was published on Petroleum Science.
+
+## Experiences
 
 - [09/2025] Congratulations! One paper about Weak Supervised Learning and Marginal Deployment was published on Computer and Computers and Geosciences.
 - [04/2025] Congratulations! One paper about Dynamic Range Attention was published on IEEE GRSL.
