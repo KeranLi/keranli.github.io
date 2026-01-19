@@ -26,7 +26,7 @@ Now I'm training large-, pretrained, and foundational backbones for sedimentolog
 
 - [07/2025 - ] Co-founder of IntelliGeo Co. Ltd.
 - [06/2023 - ] Leader of AI4Geoscience.
-- [06/2023 - 12/2023] Remote software sssitant, GeochemesitryOi, Advisor: Prof. Zhou Zhang.
+- [06/2023 - 12/2023] Remote software sssitant, GeochemesitryPi, Advisor: Prof. Zhou Zhang.
 - [09/2020 - 06/2023] Research Assistant, TIMS analysis room, State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Chengdu University of Technology, Advisor: Dr. Di Yang.
 - [05/2020 - 07/2020] Remote AI Research Assistant, Shanghai AI Lab, Advisor: Dr. Zhiyuan Chen.
 - [09/2016 - 06/2020] Research Assistant, TIMS analysis room, State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Chengdu University of Technology, Advisor: Dr. Di Yang.
