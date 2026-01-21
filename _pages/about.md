@@ -8,25 +8,48 @@ redirect_from:
   - /about.html
 ---
 
-Currently, I'm a PhD student from [School of Earth Sciences and Engineering](https://es.nju.edu.cn/mainm.htm), [Nanjing University](https://www.pku.edu.cn/), supervised by Prof. Xiumian Hu and Dr. Anlin Ma. Before that, I received the M.Sc degree of Petroleum Geology in 2023 and B. Eng degree of Petroleum Geology in 2020 at Chengdu University of Technology, supervised by Prof. Jinmin Song.
+I am a PhD student at the [School of Earth Sciences and Engineering](https://es.nju.edu.cn/mainm.htm), [Nanjing University](https://www.nju.edu.cn/), supervised by Prof. Xiumian Hu and Dr. Anlin Ma. Previously, I received my M.Sc. degree in Petroleum Geology in 2023 and my B.Eng. degree in Petroleum Geology in 2020 from Chengdu University of Technology, under the supervision of Prof. Jinmin Song.
 
-My research interest includes Sedimentary applications by using computer vision, machine learning and deep learning. Also, I do some researches about geochemical sedimentolgy in carbonate via major/trace elements, carbonate U-Pb dating, C-O-Sr-Ca-Mg-Triple oxygen isotopes and corresponding modeling. Before geochemical analysis, I take careful analysis in field investigation, microscopic thin-section observation, CL and SEM analysis.
+My research interests include sedimentary applications using computer vision, machine learning, and deep learning. I also work on geochemical sedimentology of carbonates using major and trace elements, carbonate U–Pb dating, and multi-isotopic proxies (C–O–Sr–Ca–Mg and triple oxygen isotopes), along with related modeling. Prior to geochemical analyses, I conduct careful field investigations and detailed petrographic examinations, including thin-section observation, cathodoluminescence (CL), and SEM analysis.
 
-Now I'm training large-, pretrained, and foundational backbones for sedimentology. Also, I'm using mutiple isotopic proxies to explore the Tibet plateau.
+Currently, I am training large pretrained foundation models (backbone networks) for sedimentology. I also use multiple isotopic proxies to investigate paleoenvironmental and diagenetic processes on the Tibetan Plateau.
 
 ---
 
 ## News
 
-- [09/2025] Congratulations! One paper about Weak Supervised Learning and Marginal Deployment was published on Computers and Geosciences.
-- [04/2025] Congratulations! One paper about Dynamic Range Attention was published on IEEE GRSL.
-- [02/2025] Congratulations! One paper about Spectral Graph Convolution model was published on Petroleum Science.
+* **[01/2026]** One paper on the benchmark of carbonate thin-section was published in *Scientific Data*.
+* **[09/2025]** One paper on weakly supervised learning and marginal deployment was published in *Computers & Geosciences*.
+* **[04/2025]** One paper on dynamic range attention was published in *IEEE GRSL*.
+* **[02/2025]** One paper on a spectral graph convolution model was published in *Petroleum Science*.
 
-## Experiences
+## Experience
 
-- [07/2025 - ] Co-founder of IntelliGeo Co. Ltd.
-- [06/2023 - ] Leader of AI4Geoscience.
-- [06/2023 - 12/2023] Remote software sssitant, GeochemesitryPi, Advisor: Prof. Zhou Zhang.
-- [09/2020 - 06/2023] Research Assistant, TIMS analysis room, State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Chengdu University of Technology, Advisor: Dr. Di Yang.
-- [05/2020 - 07/2020] Remote AI Research Assistant, Shanghai AI Lab, Advisor: Dr. Zhiyuan Chen.
-- [09/2016 - 06/2020] Research Assistant, TIMS analysis room, State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation, Chengdu University of Technology, Advisor: Dr. Di Yang.
+### IntelliGeo Co. Ltd. | **Co-founder** | *Jul 2025 – Present*  
+
+- Co-founded a geoscience-focused AI company, delivering intelligent solutions for subsurface interpretation.
+
+### AI4Geoscience | **Team Lead** | *Jun 2023 – Present*  
+
+- Led AI4Geoscience initiatives, integrating machine learning into geoscience research and applications.
+
+### GeochemistryPi (Remote) | **Software Assistant** | *Jun 2023 – Dec 2023*  
+
+- **Advisor:** Prof. Zhou Zhang  
+- Contributed to geochemistry-related software development and data processing pipelines.
+
+### Chengdu University of Technology | **State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation** | **Research Assistant (TIMS Analysis Room)** | *Sep 2020 – Jun 2023*  
+
+- **Advisor:** Dr. Di Yang  
+- Conducted TIMS-related analytical support and assisted in isotope data management.
+
+### Shanghai AI Lab (Remote) | **AI Research Assistant** | *May 2020 – Jul 2020*  
+
+- **Advisor:** Dr. Zhiyuan Chen  
+
+- Supported AI research tasks including model evaluation and experimental workflows.
+
+### Chengdu University of Technology | **State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation** | **Research Assistant (TIMS Analysis Room)** | *Sep 2016 – Jun 2020*  
+
+- **Advisor:** Dr. Di Yang  
+- Assisted laboratory operations and analytical procedures for TIMS measurements.
