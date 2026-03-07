@@ -18,6 +18,8 @@ Currently, I am training large pretrained foundation models (backbone networks) 
 
 ## News
 
+* **[03/2026]** A new software, *FastMeasure*, was released.
+* **[02/2026]** Deployed one Apple MacBool M4 pro and two NVIDIA RTX Pro 6000.
 * **[01/2026]** One paper on the benchmark of carbonate thin-section was published in *Scientific Data*.
 * **[09/2025]** One paper on weakly supervised learning and marginal deployment was published in *Computers & Geosciences*.
 * **[04/2025]** One paper on dynamic range attention was published in *IEEE GRSL*.
