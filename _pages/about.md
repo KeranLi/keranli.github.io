@@ -18,7 +18,7 @@ Currently, I am training large pretrained foundation models (backbone networks) 
 
 ## News
 
-* **[03/2026]** A new software, *FastMeasure*, was released.
+* **[03/2026]** Started cooperation with Aridi's research group, [PREDICTIVE](https://www.predict-cpg.com/) on *FastMeasure*.
 * **[02/2026]** Deployed one Apple MacBook M4 pro and two NVIDIA RTX Pro 6000.
 * **[01/2026]** One paper on the benchmark of carbonate thin-section was published in *Scientific Data*.
 * **[09/2025]** One paper on weakly supervised learning and marginal deployment was published in *Computers & Geosciences*.
