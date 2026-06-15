@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Keran Li / Nanjing"
+title                    : "Keran Li"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Keran Li"
+description              : &description "Keran Li is a PhD student at Nanjing University working on sedimentology, computer vision, machine learning, carbonate geochemistry, and geoscience AI."
 url                      : https://keranli.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KeranLi/keranli.github.io"
@@ -66,10 +66,13 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : "Keran Li"
   links: # An array of links to social media profiles
-
+    - "https://github.com/KeranLi"
+    - "https://scholar.google.com/citations?user=lDnbOyEAAAAJ&hl=zh-CN"
+    - "https://www.researchgate.net/profile/Keran-Li-3"
+    - "https://orcid.org/0000-0002-7296-8729"
 
 # Analytics
 analytics:
@@ -89,21 +92,21 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=lDnbOyEAAAAJ&hl=zh-CN"
   email            : "keranli98@outlook.com | geokeranli@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Keran-Li-3?ev=hdr_xprf"
-  uri              : "http://keranli.github.io"
+  uri              : "https://keranli.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/KeranLi?tab=overview&from=2026-01-01&to=2026-01-21"
+  github           : "KeranLi"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-7296-8729"
+  orcid            : "https://orcid.org/0000-0002-7296-8729"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
