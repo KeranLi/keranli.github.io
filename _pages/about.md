@@ -19,7 +19,7 @@ Currently, I am training large pretrained foundation models (backbone networks) 
 ## News
 
 * **[06/2026]** One paper on the OneDZ global detrital zircon database was published in *Earth System Science Data*.
-* **[03/2026]** Started cooperation with Aridi's research group, [PREDICTIVE](https://www.predict-cpg.com/) on *FastMeasure*.
+* **[03/2026]** Started cooperation with Ardi's research group, [PREDICTIVE](https://www.predict-cpg.com/) on *FastMeasure*.
 * **[02/2026]** Deployed one Apple MacBook M4 pro and two NVIDIA RTX Pro 6000.
 * **[03/2026]** One paper on the DeepCarbonate thin-section image benchmark was published in *Scientific Data*.
 * **[09/2025]** One paper on weakly supervised learning and marginal deployment was published in *Computers & Geosciences*.
