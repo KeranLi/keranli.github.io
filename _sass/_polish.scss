@@ -4,6 +4,40 @@
 
 body {
   background: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.masthead,
+.masthead__menu-item,
+.page__meta,
+.page__date,
+.archive__subtitle,
+.talk-entry__type {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+.page__title {
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.page__content,
+.sidebar {
+  line-height: 1.65;
+}
+
+.page__meta,
+.page__date {
+  line-height: 1.5;
 }
 
 .masthead {
