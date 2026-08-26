@@ -5,7 +5,7 @@ header:
   teaser: publications/deep-carbonate.jpg
 permalink: /publication/2026-03-01-paper-DeepCarbonate
 excerpt: 'This paper presents DeepCarbonate, a carbonate thin-section image dataset and benchmark for deep learning.'
-date: 2026-03-01
+date: 2026-01-01
 venue: 'Scientific Data'
 paperurl: 'https://keranli.github.io/files/DeepCarbonate.pdf'
 ---
