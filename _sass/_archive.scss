@@ -271,6 +271,81 @@
    Software directory
    ========================================================================== */
 
+@keyframes software-activity-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.software-activity {
+  margin-bottom: 2.25em;
+  padding: 1.1em 0 1.25em;
+  border-top: 3px solid $info-color;
+  border-bottom: 1px solid $border-color;
+  animation: software-activity-enter 500ms ease-out both;
+}
+
+.software-activity__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1em;
+  margin-bottom: 0.9em;
+
+  h2 {
+    margin: 0;
+    font-size: $type-size-5;
+
+    i {
+      margin-right: 0.4em;
+      color: $info-color;
+    }
+  }
+
+  a {
+    color: $gray;
+    font-size: $type-size-7;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+    }
+
+    i {
+      margin-left: 0.25em;
+    }
+  }
+}
+
+.software-activity__chart {
+  overflow-x: auto;
+  padding-bottom: 0.25em;
+
+  a {
+    display: block;
+    width: max-content;
+    min-width: 100%;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    min-width: 720px;
+    height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .software-activity {
+    animation: none;
+  }
+}
 .software-list {
   border-top: 1px solid $border-color;
 }
