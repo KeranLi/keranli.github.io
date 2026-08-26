@@ -1,0 +1,126 @@
+/* ============================================================================
+   Visual polish
+   ============================================================================ */
+
+body {
+  background: #f8fafc;
+}
+
+.masthead {
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom-color: #e5e9ee;
+  box-shadow: 0 1px 0 rgba(31, 41, 55, 0.03);
+}
+
+.greedy-nav {
+  background: transparent;
+
+  a {
+    color: #526170;
+    transition: color 0.2s ease, background-color 0.2s ease;
+
+    &:hover {
+      color: #1685a8;
+    }
+  }
+
+  .visible-links a:before {
+    height: 3px;
+    border-radius: 3px;
+    background: #2a9fc0;
+  }
+}
+
+.theme-toggle {
+  color: #526170;
+  border-color: #d9e0e7;
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 2px 8px rgba(31, 41, 55, 0.08);
+  transition: color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    color: #1685a8;
+    border-color: #79c5d8;
+    box-shadow: 0 4px 12px rgba(31, 41, 55, 0.12);
+    transform: translateY(-1px);
+  }
+}
+
+.page__content h2 {
+  border-bottom-color: #dce4ea;
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 3.5rem;
+    height: 2px;
+    background: #2a9fc0;
+    border-radius: 2px;
+  }
+}
+
+.page__content a {
+  text-decoration-color: #a7d7e3;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+
+  &:hover {
+    color: #127b9c;
+    text-decoration-color: #127b9c;
+  }
+}
+
+.btn {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(31, 41, 55, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(31, 41, 55, 0.14);
+  }
+}
+
+.sidebar .author__name a,
+.sidebar .author__name {
+  color: #263746;
+}
+
+.page__footer {
+  border-top-color: #e5e9ee;
+  background: #f1f5f8;
+}
+
+.theme-dark {
+  body {
+    background: #171c21;
+  }
+
+  .masthead {
+    background: rgba(27, 32, 37, 0.96);
+    border-bottom-color: #3a464f;
+  }
+
+  .greedy-nav a,
+  .theme-toggle {
+    color: #b9c9d3;
+  }
+
+  .theme-toggle {
+    background: rgba(35, 42, 48, 0.85);
+    border-color: #4b5a65;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  }
+
+  .page__content h2 {
+    border-bottom-color: #3a464f;
+  }
+
+  .page__footer {
+    border-top-color: #3a464f;
+    background: #1b2025;
+  }
+}
