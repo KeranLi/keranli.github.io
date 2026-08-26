@@ -1,4 +1,4 @@
-{% include base_path %}
+﻿{% include base_path %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -16,9 +16,11 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <li class="masthead__menu-item theme-toggle-item"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i class="fas fa-moon" aria-hidden="true"></i></button></li>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode"><i class="fas fa-moon" aria-hidden="true"></i></button>
   </div>
 </div>
+
+
