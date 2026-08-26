@@ -42,7 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .word-cloud {
   position: relative;
-  width: 100%;
+  width: calc(100vw - 2rem);
+  max-width: 100%;
   height: clamp(220px, 28vw, 340px);
   margin: 0 0 2.25rem;
   padding: 0;
@@ -52,6 +53,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .word-cloud__canvas { display: block; width: 100%; height: 100%; }
+
+@media (max-width: 600px) {
+  .word-cloud {
+    height: 290px;
+  }
+}
 
 .masthead {
   background: rgba(255, 255, 255, 0.94);
