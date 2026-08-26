@@ -51,12 +51,11 @@
   margin-left: 0.35rem;
 }
 
-\.theme-toggle {
-  position: absolute;
-  top: 50%;
-  right: 1em;
-  z-index: 30;
-  transform: translateY(-50%);
+\\.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -84,6 +83,7 @@
     font-weight: 700;
   }
 }
+
 
 
 
