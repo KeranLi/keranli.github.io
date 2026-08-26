@@ -351,50 +351,10 @@
 }
 
 .software-entry {
-  display: grid;
-  grid-template-columns: 100px minmax(0, 1fr);
-  gap: 1em;
-  align-items: start;
   padding: 1.5em 0;
   border-bottom: 1px solid $border-color;
 }
 
-.software-entry__image {
-  display: block;
-  aspect-ratio: 16 / 10;
-  overflow: hidden;
-  background: $lighter-gray;
-
-  img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-.software-entry__image {
-  position: relative;
-  border: 1px solid $border-color;
-  border-top: 4px solid $info-color;
-
-  &:hover {
-    border-color: $link-color-hover;
-  }
-}
-
-.software-entry__image-label {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0.35em 0.5em;
-  color: #fff;
-  font-size: 0.65em;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  background: rgba(#000, 0.65);
-}
 .software-entry__heading {
   display: flex;
   align-items: flex-start;
