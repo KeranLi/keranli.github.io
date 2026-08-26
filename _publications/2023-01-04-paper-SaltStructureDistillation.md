@@ -1,6 +1,8 @@
 ---
 title: "Salt structure identification based on U-net model with target flip, multiple distillation and self-distillation methods"
 collection: publications
+primary_author: true
+author_role: "First author"
 header:
   teaser: publications/salt-structure.jpg
 permalink: /publication/2023-01-04-paper-SaltStructureDistillation

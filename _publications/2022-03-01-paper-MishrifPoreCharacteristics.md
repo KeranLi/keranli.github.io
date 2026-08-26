@@ -1,6 +1,8 @@
 ---
 title: "Pore characteristics of Cretaceous Mishrif Formation carbonate reservoirs in the eastern Rub' al Khali Basin, UAE"
 collection: publications
+primary_author: true
+author_role: "Corresponding author"
 header:
   teaser: publications/mishrif-pores.jpg
 permalink: /publication/2022-03-01-paper-MishrifPoreCharacteristics

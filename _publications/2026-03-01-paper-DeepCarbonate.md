@@ -1,6 +1,8 @@
 ---
 title: "A dataset and benchmark of carbonate thin-section images for deep learning"
 collection: publications
+primary_author: true
+author_role: "First author (co-first author)"
 header:
   teaser: publications/deep-carbonate.jpg
 permalink: /publication/2026-03-01-paper-DeepCarbonate

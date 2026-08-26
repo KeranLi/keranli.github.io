@@ -1,6 +1,8 @@
 ---
 title: "OneDZ: a global detrital zircon database and implications for constructing giant geoscience database"
 collection: publications
+primary_author: true
+author_role: "First author"
 header:
   teaser: publications/onedz.jpg
 permalink: /publication/2026-06-01-paper-OneDZ

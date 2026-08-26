@@ -1,6 +1,8 @@
 ---
 title: "Element enrichment characteristics and significance of microbialite fabrics in the Dengying Formation, Sichuan Basin"
 collection: publications
+primary_author: true
+author_role: "First author"
 header:
   teaser: publications/microbialite-elements.jpg
 permalink: /publication/2024-02-01-paper-MicrobialiteElementEnrichment

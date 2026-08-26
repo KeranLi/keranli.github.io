@@ -1,6 +1,8 @@
 ---
 title: "Weakly supervised semantic segmentation of microscopic carbonates on marginal devices"
 collection: publications
+primary_author: true
+author_role: "First and corresponding author"
 header:
   teaser: publications/weak-supervise.jpg
 permalink: /publication/2025-09-20-paper-WeakSupervise

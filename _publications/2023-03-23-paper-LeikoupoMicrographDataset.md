@@ -1,6 +1,8 @@
 ---
 title: "A microscopic carbonate image dataset of the Middle Triassic Leikoupo Formation in the central Sichuan Basin"
 collection: publications
+primary_author: true
+author_role: "First author"
 header:
   teaser: publications/leikoupo-dataset.jpg
 permalink: /publication/2023-03-23-paper-LeikoupoMicrographDataset

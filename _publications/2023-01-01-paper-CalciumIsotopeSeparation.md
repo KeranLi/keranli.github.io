@@ -1,6 +1,8 @@
 ---
 title: "Improvement of chemical separation method of calcium isotopes in carbonate rocks and its application prospect in geological samples of the Qinghai-Tibet Plateau"
 collection: publications
+primary_author: true
+author_role: "First author"
 header:
   teaser: publications/calcium-isotope-separation.jpg
 permalink: /publication/2023-01-01-paper-CalciumIsotopeSeparation

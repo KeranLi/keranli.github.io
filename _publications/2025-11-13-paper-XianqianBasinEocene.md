@@ -1,0 +1,18 @@
+---
+title: "Early to middle Eocene (50-43 Ma) Xianqian Basin in central Tibet: Archives of arid paleoenvironments and a southward plateau uplift trend"
+collection: publications
+primary_author: false
+author_role: "Collaborative author"
+header:
+  teaser: publications/xianqian-basin.jpg
+permalink: /publication/2025-11-13-paper-XianqianBasinEocene
+excerpt: 'Integrated basin records constrain Eocene aridity and a southward trend of Tibetan Plateau surface uplift.'
+date: 2025-11-13
+venue: 'GSA Bulletin'
+paperurl: 'https://keranli.github.io/files/XianqianBasinEocene.pdf'
+---
+This study integrates stratigraphy, sedimentology, paleontology, provenance, and geochronology from the Xianqian Basin. The results indicate an arid, internally drained basin between about 50 and 43 Ma and support southward progression of Tibetan Plateau uplift from its interior.
+
+[Download paper here](https://keranli.github.io/files/XianqianBasinEocene.pdf)
+
+DOI: [10.1130/B38437.1](https://doi.org/10.1130/B38437.1)
