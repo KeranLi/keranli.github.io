@@ -31,6 +31,10 @@
   }
 }
 
+.masthead .greedy-nav .visible-links a {
+  margin-right: 0.65rem;
+  margin-left: 0.65rem;
+}
 .masthead__menu {
 
   ul {
@@ -47,7 +51,7 @@
   white-space: nowrap;
 
   &--lg {
-    padding-right: 2em;
+    padding-right: 1.25em;
     font-weight: 700;
   }
 }
