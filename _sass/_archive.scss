@@ -124,6 +124,150 @@
 
 
 /*
+   Talks timeline
+   ========================================================================== */
+
+.talk-list__item {
+  position: relative;
+
+  &:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: 74px;
+    bottom: -2px;
+    left: 37px;
+    width: 1px;
+    background: $border-color;
+  }
+}
+
+.talk-entry {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 1.25em;
+  align-items: start;
+  padding-bottom: 2.25em;
+}
+
+.talk-entry__date {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 76px;
+  min-height: 76px;
+  padding: 8px 4px;
+  color: $dark-gray;
+  line-height: 1;
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-top: 3px solid $info-color;
+  z-index: 1;
+}
+
+.talk-entry__month {
+  color: $info-color;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.talk-entry__day {
+  margin: 4px 0 3px;
+  font-size: $type-size-3;
+  font-weight: bold;
+}
+
+.talk-entry__year {
+  color: $gray;
+  font-size: $type-size-7;
+}
+
+.talk-entry__content {
+  min-width: 0;
+  padding-top: 2px;
+}
+
+.talk-entry__type {
+  display: block;
+  margin-bottom: 5px;
+  color: $info-color;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.talk-entry__title {
+  margin: 0 0 0.55em;
+  font-size: $type-size-4;
+  line-height: 1.35;
+
+  a {
+    color: $darker-gray;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.talk-entry__permalink {
+  margin-left: 0.25em;
+  font-size: $type-size-6;
+}
+
+.talk-entry__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em 1.25em;
+  color: $gray;
+  font-size: $type-size-6;
+  line-height: 1.5;
+
+  span {
+    display: inline-flex;
+    align-items: baseline;
+    min-width: 0;
+  }
+
+  i {
+    width: 1.2em;
+    margin-right: 0.4em;
+    color: $light-gray;
+    text-align: center;
+  }
+}
+
+.talk-entry__excerpt {
+  margin-top: 0.8em;
+  font-size: $type-size-6;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+@include breakpoint($small) {
+  .talk-list__item:not(:last-child)::before {
+    left: 45px;
+  }
+
+  .talk-entry {
+    grid-template-columns: 92px minmax(0, 1fr);
+    gap: 1.75em;
+    padding-bottom: 2.75em;
+  }
+
+  .talk-entry__date {
+    width: 92px;
+    min-height: 84px;
+  }
+}
+
+/*
    List view
    ========================================================================== */
 

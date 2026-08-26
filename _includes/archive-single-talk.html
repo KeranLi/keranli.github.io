@@ -1,42 +1,40 @@
 {% include base_path %}
 
-{% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
-
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
+<div class="talk-list__item">
+  <article class="talk-entry" itemscope itemtype="http://schema.org/Event">
+    <time class="talk-entry__date" datetime="{{ post.date | date_to_xmlschema }}" itemprop="startDate">
+      <span class="talk-entry__month">{{ post.date | date: "%b" }}</span>
+      <span class="talk-entry__day">{{ post.date | date: "%d" }}</span>
+      <span class="talk-entry__year">{{ post.date | date: "%Y" }}</span>
+    </time>
+
+    <div class="talk-entry__content">
+      {% if post.type %}<span class="talk-entry__type">{{ post.type }}</span>{% endif %}
+      <h2 class="talk-entry__title" itemprop="name">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a>
+          <a class="talk-entry__permalink" href="{{ base_path }}{{ post.url }}" rel="permalink" aria-label="Permalink"><i class="fas fa-link" aria-hidden="true"></i></a>
+        {% else %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+
+      <div class="talk-entry__meta">
+        {% if post.venue %}
+          <span itemprop="organizer"><i class="fas fa-microphone" aria-hidden="true"></i>{{ post.venue }}</span>
+        {% endif %}
+        {% if post.location %}
+          <span itemprop="location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>{{ post.location }}</span>
+        {% endif %}
       </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+      {% if post.excerpt %}<div class="talk-entry__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
+    </div>
   </article>
 </div>
