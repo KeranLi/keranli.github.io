@@ -1,0 +1,28 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<article class="teaching-entry" itemscope itemtype="http://schema.org/Course">
+  <time class="teaching-entry__date" datetime="{{ post.date | date_to_xmlschema }}">
+    <span>{{ post.date | date: "%b" }}</span>
+    <strong>{{ post.date | date: "%d" }}</strong>
+    <span>{{ post.date | date: "%Y" }}</span>
+  </time>
+
+  <div class="teaching-entry__content">
+    {% if post.type %}<span class="teaching-entry__type">{{ post.type }}</span>{% endif %}
+    <h2 class="teaching-entry__title" itemprop="name">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    <div class="teaching-entry__meta">
+      {% if post.venue %}<span><i class="fas fa-university" aria-hidden="true"></i>{{ post.venue }}</span>{% endif %}
+      {% if post.role %}<span><i class="fas fa-chalkboard-teacher" aria-hidden="true"></i>{{ post.role }}</span>{% endif %}
+      {% if post.instructor %}<span><i class="fas fa-user" aria-hidden="true"></i>Course Instructor: {{ post.instructor }}</span>{% endif %}
+    </div>
+  </div>
+</article>
