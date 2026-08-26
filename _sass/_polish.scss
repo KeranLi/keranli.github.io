@@ -41,49 +41,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .word-cloud {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.55rem 0.75rem;
+  position: relative;
+  width: 100%;
+  height: clamp(220px, 28vw, 340px);
   margin: 0 0 2.25rem;
-  padding: 1.15rem 1.25rem;
+  padding: 0;
   border: 1px solid #dce4ea;
   border-left: 3px solid #2a9fc0;
   background: #f2f7fa;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  text-align: center;
 }
 
-.word-cloud__word {
-  display: flex;
-  min-width: 0;
-  min-height: 2.4em;
-  align-items: center;
-  justify-content: center;
-  color: #526170;
-  font-weight: 600;
-  line-height: 1.15;
-  text-transform: none;
-  overflow-wrap: anywhere;
-  transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.word-cloud__word:hover {
-  color: #1685a8;
-  transform: translateY(-1px);
-}
-
-.word-cloud__word--xl { font-size: 1.05em; color: #147e9f; }
-.word-cloud__word--lg { font-size: 0.92em; color: #277f99; }
-.word-cloud__word--md { font-size: 0.8em; }
-.word-cloud__word--sm { font-size: 0.68em; color: #71808d; }
-
-@media (max-width: 600px) {
-  .word-cloud {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.45rem 0.55rem;
-    padding: 0.9rem 0.7rem;
-  }
-}
+.word-cloud__canvas { display: block; width: 100%; height: 100%; }
 
 .masthead {
   background: rgba(255, 255, 255, 0.94);
@@ -232,10 +200,6 @@ h1, h2, h3, h4, h5, h6 {
     background: #20282e;
   }
 
-  .word-cloud__word { color: #b9c9d3; }
-  .word-cloud__word--xl,
-  .word-cloud__word--lg { color: #7ec8df; }
-  .word-cloud__word--sm { color: #8fa3af; }
 
   .author__avatar img {
     border-color: #2f3941;
