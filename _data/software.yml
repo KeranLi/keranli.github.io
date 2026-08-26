@@ -1,0 +1,34 @@
+- name: "FastMeasure"
+  category: "Scientific Imaging"
+  description: "A cross-platform deep-learning workflow for detecting, segmenting, and measuring grains in rock microscopic images, with automatic scale calibration and geometric analysis."
+  language: "Python"
+  tags: ["YOLO", "FastSAM", "MobileSAM"]
+  url: "https://github.com/KeranLi/FastMeasure"
+
+- name: "OneDZ LLM Tools"
+  category: "Geoscience Data"
+  description: "Official LLM-assisted data extraction and correction tools developed for the OneDZ global detrital-zircon database."
+  language: "Python"
+  tags: ["LLM", "Detrital Zircon", "Database"]
+  url: "https://github.com/KeranLi/onedz_llm_coding"
+
+- name: "PyOPI"
+  category: "Climate and Isotopes"
+  description: "MATLAB and Python implementations of the Orographic Precipitation and Isotopes model for simulating precipitation and water-isotope fractionation over three-dimensional topography."
+  language: "Python / MATLAB"
+  tags: ["Paleoclimate", "Water Isotopes", "Topography"]
+  url: "https://github.com/KeranLi/PyOPI"
+
+- name: "BayesianDepage"
+  category: "Geochronology"
+  description: "A reproducible Bayesian eruption-age and monotonic age-depth modeling workflow for single-zircon U-Pb datasets, with uncertainty-aware outputs and publication-ready figures."
+  language: "Python"
+  tags: ["PyMC", "U-Pb", "Age-Depth Model"]
+  url: "https://github.com/KeranLi/BayesianDepage"
+
+- name: "ClumpIsotopePy"
+  category: "Isotope Geochemistry"
+  description: "A carbonate clumped-isotope modeling framework for forward and solid-state reordering calculations, thermal-history reconstruction, and paleotemperature interpretation."
+  language: "Python"
+  tags: ["Clumped Isotopes", "Thermal History", "Kinetics"]
+  url: "https://github.com/KeranLi/ClumpIsotopePy"

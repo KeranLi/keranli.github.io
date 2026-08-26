@@ -268,6 +268,89 @@
 }
 
 /*
+   Software directory
+   ========================================================================== */
+
+.software-list {
+  border-top: 1px solid $border-color;
+}
+
+.software-entry {
+  padding: 1.5em 0;
+  border-bottom: 1px solid $border-color;
+}
+
+.software-entry__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.software-entry__category {
+  display: block;
+  margin-bottom: 0.35em;
+  color: $info-color;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.software-entry__title {
+  margin: 0;
+  font-size: $type-size-4;
+  line-height: 1.3;
+}
+
+.software-entry__repo {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.45em 0.65em;
+  color: $dark-gray;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid $border-color;
+
+  &:hover {
+    color: $link-color-hover;
+    border-color: $link-color-hover;
+  }
+}
+
+.software-entry__description {
+  max-width: 52em;
+  margin: 0.75em 0;
+  color: $dark-gray;
+  font-size: $type-size-6;
+  line-height: 1.6;
+}
+
+.software-entry__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 1em;
+  color: $gray;
+  font-size: $type-size-7;
+
+  > span:not(:last-child) {
+    padding-right: 1em;
+    border-right: 1px solid $border-color;
+  }
+}
+
+.software-entry__language {
+  color: $darker-gray;
+  font-weight: bold;
+
+  i {
+    margin-right: 0.4em;
+    color: $light-gray;
+  }
+}
+/*
    Portfolio projects
    ========================================================================== */
 

@@ -1,0 +1,17 @@
+<article class="software-entry">
+  <div class="software-entry__heading">
+    <div>
+      <span class="software-entry__category">{{ software.category }}</span>
+      <h2 class="software-entry__title">{{ software.name }}</h2>
+    </div>
+    <a class="software-entry__repo" href="{{ software.url }}" aria-label="View {{ software.name }} on GitHub">
+      <i class="fab fa-github" aria-hidden="true"></i>
+      <span>GitHub</span>
+    </a>
+  </div>
+  <p class="software-entry__description">{{ software.description }}</p>
+  <div class="software-entry__tags">
+    <span class="software-entry__language"><i class="fas fa-code" aria-hidden="true"></i>{{ software.language }}</span>
+    {% for tag in software.tags %}<span>{{ tag }}</span>{% endfor %}
+  </div>
+</article>
