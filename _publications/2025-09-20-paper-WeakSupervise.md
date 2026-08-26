@@ -1,6 +1,8 @@
 ---
 title: "Weakly supervised semantic segmentation of microscopic carbonates on marginal devices"
 collection: publications
+header:
+  teaser: publications/weak-supervise.jpg
 permalink: /publication/2025-09-20-paper-WeakSupervise
 excerpt: 'This paper is about the carbonate thin section segment via waek supervised learning.'
 date: 2025-09-20

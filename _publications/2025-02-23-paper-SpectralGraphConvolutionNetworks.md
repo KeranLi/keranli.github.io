@@ -1,6 +1,8 @@
 ---
 title: "Spectral graph convolution networks for microbialite lithology identification based on conventional well logs"
 collection: publications
+header:
+  teaser: publications/spectral.jpg
 permalink: /publication/2025-02-23-paper-SpectralGraphConvolutionNetworks
 excerpt: 'This paper is about the application of spectral graph comvolution networks for lithology identification.'
 date: 2025-02-23

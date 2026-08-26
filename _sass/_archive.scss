@@ -74,6 +74,44 @@
   }
 }
 
+.archive__item--publication {
+  margin-bottom: 2em;
+
+  .archive__item-teaser--publication {
+    max-width: 160px;
+    margin: 0;
+
+    img {
+      display: block;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+    }
+  }
+
+  .archive__item-content {
+    min-width: 0;
+  }
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  @include breakpoint($small) {
+    display: grid;
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 1.5em;
+    align-items: start;
+
+    .archive__item-teaser--publication {
+      grid-column: 1;
+    }
+
+    .archive__item-content {
+      grid-column: 2;
+    }
+  }
+}
+
 .archive__item:hover {
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);

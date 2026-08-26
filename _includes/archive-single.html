@@ -13,8 +13,8 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+  <article class="archive__item{% if post.collection == 'publications' and teaser %} archive__item--publication{% endif %}" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser and post.collection != 'publications' %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -24,6 +24,13 @@
           {% endif %}
           alt="">
       </div>
+    {% endif %}
+
+    {% if post.collection == 'publications' and teaser %}
+      <div class="archive__item-teaser archive__item-teaser--publication">
+        <img src="{{ teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }}">
+      </div>
+      <div class="archive__item-content">
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
@@ -53,11 +60,15 @@
     {% endif %}
     
     {% if post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}">{{ post.paperurl }}</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
+      <p>Download <a href="{{ post.paperurl }}">here</a></p>
+    {% endif %}
+
+    {% if post.collection == 'publications' and teaser %}
+      </div>
     {% endif %}
 
   </article>

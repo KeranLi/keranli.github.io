@@ -2,6 +2,8 @@
 title: "Spatial–Stratigraphic Information and Dynamic Range Attention Assist Well-Logging Lithological 
  Interpretation"
 collection: publications
+header:
+  teaser: publications/dynamic-range-attention.jpg
 permalink: /publication/2025-04-08-paper-DynamicRangeAttention
 excerpt: 'This paper is about the application of Dynamic Range Attention for well-logging interpretation.'
 date: 2025-04-08

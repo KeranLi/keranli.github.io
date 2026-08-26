@@ -1,6 +1,8 @@
 ---
 title: "OneDZ: a global detrital zircon database and implications for constructing giant geoscience database"
 collection: publications
+header:
+  teaser: publications/onedz.jpg
 permalink: /publication/2026-06-01-paper-OneDZ
 excerpt: 'This paper presents OneDZ, a global detrital zircon U-Pb geochronology and Lu-Hf isotope database.'
 date: 2026-06-01
