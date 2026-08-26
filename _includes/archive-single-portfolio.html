@@ -1,0 +1,29 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<article class="portfolio-entry" itemscope itemtype="http://schema.org/CreativeWork">
+  {% if post.images %}
+    <a class="portfolio-gallery" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.title | escape }}">
+      {% for image in post.images limit: 2 %}
+        <img src="{{ image | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }} — photo {{ forloop.index }}">
+      {% endfor %}
+    </a>
+  {% endif %}
+
+  <div class="portfolio-entry__content">
+    <div class="portfolio-entry__eyebrow">
+      {% if post.category %}<span>{{ post.category }}</span>{% endif %}
+      {% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %Y" }}</time>{% endif %}
+    </div>
+    <h2 class="portfolio-entry__title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+    {% if post.venue %}<p class="portfolio-entry__venue"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>{{ post.venue }}</p>{% endif %}
+    {% if post.excerpt %}<div class="portfolio-entry__excerpt" itemprop="description">{{ post.excerpt | markdownify }}</div>{% endif %}
+  </div>
+</article>
