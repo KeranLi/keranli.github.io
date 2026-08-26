@@ -8,9 +8,9 @@
 
 <article class="portfolio-entry" itemscope itemtype="http://schema.org/CreativeWork">
   {% if post.images %}
-    <a class="portfolio-gallery" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.title | escape }}">
-      {% for image in post.images limit: 2 %}
-        <img src="{{ image | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }} — photo {{ forloop.index }}">
+    <a class="portfolio-gallery portfolio-gallery--{{ post.images.size }}" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.title | escape }}">
+      {% for image in post.images limit: 3 %}
+        <img src="{{ image | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }} - photo {{ forloop.index }}">
       {% endfor %}
     </a>
   {% endif %}
