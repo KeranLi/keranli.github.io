@@ -296,6 +296,18 @@
   }
 }
 
+.portfolio-gallery--1 {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.portfolio-gallery--detail.portfolio-gallery--1 {
+  aspect-ratio: auto;
+
+  img {
+    height: auto;
+    aspect-ratio: auto;
+  }
+}
 .portfolio-gallery--3 {
   grid-template-columns: minmax(0, 1.45fr) minmax(0, 0.85fr);
   grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -395,7 +407,19 @@
     aspect-ratio: auto;
   }
 }
-.portfolio-gallery--detail.portfolio-gallery--3 {
+.portfolio-gallery--detail.portfolio-gallery--1 {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.portfolio-gallery--detail.portfolio-gallery--1 {
+  aspect-ratio: auto;
+
+  img {
+    height: auto;
+    aspect-ratio: auto;
+  }
+}
+.portfolio-gallery--3 {
   aspect-ratio: 16 / 10;
 
   img {
