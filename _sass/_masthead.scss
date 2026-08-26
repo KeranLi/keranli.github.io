@@ -45,6 +45,28 @@
   }
 }
 
+.theme-toggle-item {
+  margin-left: 0.35rem;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25em;
+  height: 2.25em;
+  padding: 0;
+  color: $masthead-link-color;
+  background: transparent;
+  border: 1px solid $border-color;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    color: $info-color;
+    border-color: $info-color;
+  }
+}
 .masthead__menu-item {
   display: block;
   list-style-type: none;

@@ -151,3 +151,44 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+/* dark-mode overrides */
+.theme-dark {
+  color-scheme: dark;
+
+  body, .masthead, .greedy-nav, .page__footer {
+    color: #d8dee3;
+    background-color: #1b2025;
+  }
+
+  .page, .page__related, .archive__item, .software-entry__repo, .hidden-links {
+    color: #d8dee3;
+    background-color: #1b2025;
+  }
+
+  a, .archive__item-title a, .software-entry__title, .talk-entry__title a, .teaching-entry__title a {
+    color: #7ec8df;
+  }
+
+  .page__title, h1, h2, h3, h4, h5, h6, strong {
+    color: #eef3f6;
+  }
+
+  .page__meta, .page__date, .software-entry__description, .software-entry__tags, .talk-entry__meta, .teaching-entry__meta {
+    color: #aebbc4;
+  }
+
+  .masthead, .software-entry, .teaching-entry, .talk-entry__date, .software-entry__repo {
+    border-color: #3a464f;
+  }
+
+  .archive__item-teaser, .software-list {
+    border-color: #3a464f;
+    background-color: #232a30;
+  }
+
+  code, pre, .highlight {
+    color: #d8dee3;
+    background-color: #232a30;
+  }
+}
