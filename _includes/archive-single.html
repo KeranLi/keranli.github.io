@@ -1,4 +1,4 @@
-{% include base_path %}
+﻿{% include base_path %}
 
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
@@ -28,7 +28,7 @@
 
     {% if post.collection == 'publications' and teaser %}
       <div class="archive__item-teaser archive__item-teaser--publication">
-        <img src="{{ teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }}">
+        <a class="image-popup publication-image-popup" href="{{ teaser | prepend: "/images/" | prepend: base_path }}" title="{{ post.title | escape }}"><img src="{{ teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ post.title | escape }}"></a>
       </div>
       <div class="archive__item-content">
     {% endif %}
@@ -73,3 +73,4 @@
 
   </article>
 </div>
+
