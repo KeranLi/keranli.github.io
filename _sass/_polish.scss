@@ -12,6 +12,11 @@ body {
   box-shadow: 0 1px 0 rgba(31, 41, 55, 0.03);
 }
 
+.masthead__inner-wrap {
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
+}
+
 .greedy-nav {
   background: transparent;
 
@@ -73,6 +78,30 @@ body {
   }
 }
 
+.archive__item--publication,
+.software-entry,
+.teaching-entry,
+.talk-entry {
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.archive__item--publication:hover,
+.software-entry:hover,
+.teaching-entry:hover,
+.talk-entry:hover {
+  transform: translateY(-2px);
+}
+
+.archive__item-teaser--publication,
+.talk-entry__date {
+  box-shadow: 0 2px 8px rgba(31, 41, 55, 0.08);
+}
+
+.author__avatar img {
+  border: 3px solid #fff;
+  box-shadow: 0 3px 14px rgba(31, 41, 55, 0.13);
+}
+
 .btn {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(31, 41, 55, 0.1);
@@ -117,6 +146,11 @@ body {
 
   .page__content h2 {
     border-bottom-color: #3a464f;
+  }
+
+  .author__avatar img {
+    border-color: #2f3941;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
   }
 
   .page__footer {
