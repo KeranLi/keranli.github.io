@@ -1,4 +1,5 @@
 - name: "FastMeasure"
+  group: "software"
   category: "Scientific Imaging"
   description: "A cross-platform deep-learning workflow for detecting, segmenting, and measuring grains in rock microscopic images, with automatic scale calibration and geometric analysis."
   language: "Python"
@@ -6,6 +7,7 @@
   url: "https://github.com/KeranLi/FastMeasure"
 
 - name: "OneDZ LLM Tools"
+  group: "software"
   category: "Geoscience Data"
   description: "Official LLM-assisted data extraction and correction tools developed for the OneDZ global detrital-zircon database."
   language: "Python"
@@ -13,6 +15,7 @@
   url: "https://github.com/KeranLi/onedz_llm_coding"
 
 - name: "PyOPI"
+  group: "software"
   category: "Climate and Isotopes"
   description: "MATLAB and Python implementations of the Orographic Precipitation and Isotopes model for simulating precipitation and water-isotope fractionation over three-dimensional topography."
   language: "Python / MATLAB"
@@ -20,6 +23,7 @@
   url: "https://github.com/KeranLi/PyOPI"
 
 - name: "BayesianDepage"
+  group: "software"
   category: "Geochronology"
   description: "A reproducible Bayesian eruption-age and monotonic age-depth modeling workflow for single-zircon U-Pb datasets, with uncertainty-aware outputs and publication-ready figures."
   language: "Python"
@@ -27,8 +31,57 @@
   url: "https://github.com/KeranLi/BayesianDepage"
 
 - name: "ClumpIsotopePy"
+  group: "software"
   category: "Isotope Geochemistry"
   description: "A carbonate clumped-isotope modeling framework for forward and solid-state reordering calculations, thermal-history reconstruction, and paleotemperature interpretation."
   language: "Python"
   tags: ["Clumped Isotopes", "Thermal History", "Kinetics"]
   url: "https://github.com/KeranLi/ClumpIsotopePy"
+
+- name: "Balanced Isotope"
+  group: "library"
+  category: "Isotope Geochemistry"
+  description: "An extensible framework for isotope mass-balance and fractionation calculations, with a shared interface for magnesium, carbon, sulfur, strontium, and neodymium isotope systems."
+  language: "Python"
+  tags: ["Mass Balance", "Fractionation", "Geochemical Modeling"]
+  url: "https://github.com/KeranLi/Balanced_isotope"
+
+- name: "GeoTime"
+  group: "library"
+  category: "Geological Time Series"
+  description: "A toolkit for geological age-data processing, detrital-zircon analysis, spectral decomposition, detrending, filtering, wavelet analysis, and publication-oriented visualization."
+  language: "Python / Jupyter"
+  tags: ["Time Series", "Spectral Analysis", "Detrital Zircon"]
+  url: "https://github.com/KeranLi/GeoTime"
+
+- name: "Diagenetic Fluid Overprinting"
+  group: "library"
+  category: "Stable Isotope Modeling"
+  description: "A computational framework coupling Bayesian endmember mixing with Monte Carlo water-rock reaction modeling to quantify diagenetic overprinting of carbonate stable isotopes."
+  language: "Python"
+  tags: ["Bayesian MCMC", "Water-Rock Reaction", "Paleo-elevation"]
+  url: "https://github.com/KeranLi/diagenetic-fluid-overprinting"
+
+- name: "FluviCLIP"
+  group: "library"
+  category: "Remote Sensing"
+  description: "A multimodal contrastive-learning implementation for estimating suspended sediment concentration from remote-sensing imagery, including model architectures and benchmark baselines."
+  language: "Python"
+  tags: ["Contrastive Learning", "Sediment", "Remote Sensing"]
+  url: "https://github.com/KeranLi/FluviCLIP"
+
+- name: "CamNet"
+  group: "library"
+  category: "Scientific Imaging"
+  description: "Official code for weakly supervised semantic segmentation of microscopic carbonates, combining class activation maps, knowledge distillation, and an ultra-lightweight model for marginal-device deployment."
+  language: "Python"
+  tags: ["Weak Supervision", "Semantic Segmentation", "Edge AI"]
+  url: "https://github.com/KeranLi/CamNet"
+
+- name: "DeepCarbonate"
+  group: "library"
+  category: "Dataset and Benchmark"
+  description: "Official dataset and benchmark repository for carbonate thin-section image analysis, covering 55,786 images, 22 lithological categories, three optical modes, and reproducible deep-learning baselines."
+  language: "Python / Jupyter"
+  tags: ["Carbonate Petrography", "Computer Vision", "Benchmark"]
+  url: "https://github.com/KeranLi/DeepCarbonate"

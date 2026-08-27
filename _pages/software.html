@@ -16,8 +16,23 @@ author_profile: true
     </a>
   </div>
 </section>
-<div class="software-list">
-  {% for software in site.data.software %}
-    {% include software-entry.html %}
-  {% endfor %}
-</div>
+
+{% assign featured_software = site.data.software | where: "group", "software" %}
+<section class="software-section" aria-labelledby="featured-software-title">
+  <h2 id="featured-software-title" class="software-section__title"><i class="fas fa-desktop" aria-hidden="true"></i> Featured Software</h2>
+  <div class="software-list">
+    {% for software in featured_software %}
+      {% include software-entry.html %}
+    {% endfor %}
+  </div>
+</section>
+
+{% assign coding_libraries = site.data.software | where: "group", "library" %}
+<section class="software-section" aria-labelledby="coding-libraries-title">
+  <h2 id="coding-libraries-title" class="software-section__title"><i class="fas fa-code-branch" aria-hidden="true"></i> Research Code &amp; Libraries</h2>
+  <div class="software-list">
+    {% for software in coding_libraries %}
+      {% include software-entry.html %}
+    {% endfor %}
+  </div>
+</section>
