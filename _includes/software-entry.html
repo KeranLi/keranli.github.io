@@ -14,4 +14,8 @@
     <span class="software-entry__language"><i class="fas fa-code" aria-hidden="true"></i>{{ software.language }}</span>
     {% for tag in software.tags %}<span>{{ tag }}</span>{% endfor %}
   </div>
+  <div class="software-entry__activity" data-repo="{{ software.url | replace: 'https://github.com/', '' }}" aria-label="Recent GitHub commit activity for {{ software.name }}">
+    <div class="software-entry__activity-label"><i class="fas fa-chart-area" aria-hidden="true"></i> Recent activity</div>
+    <div class="software-entry__activity-chart" data-activity-chart></div>
+  </div>
 </article>

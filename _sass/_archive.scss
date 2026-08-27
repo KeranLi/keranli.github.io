@@ -448,6 +448,45 @@
     color: $light-gray;
   }
 }
+
+.software-entry__activity {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  max-width: 340px;
+  margin-top: 1em;
+  padding-top: 0.75em;
+  border-top: 1px solid $border-color;
+}
+
+.software-entry__activity-label {
+  flex: 0 0 auto;
+  color: $gray;
+  font-size: $type-size-7;
+  white-space: nowrap;
+
+  i {
+    margin-right: 0.35em;
+    color: $info-color;
+  }
+}
+
+.software-entry__activity-chart {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 48px;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 48px;
+    overflow: visible;
+  }
+}
+
+.software-entry__activity-bars rect { fill: rgba(42, 159, 192, 0.16); }
+.software-entry__activity-line { fill: none; stroke: $info-color; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.software-entry__activity--unavailable { display: none; }
 /*
    Portfolio projects
    ========================================================================== */
