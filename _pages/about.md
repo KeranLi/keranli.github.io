@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include visitor-counter.html %}
+
 I am a PhD student at the [School of Earth Sciences and Engineering](https://es.nju.edu.cn/mainm.htm), [Nanjing University](https://www.nju.edu.cn/), supervised by Prof. Xiumian Hu and Dr. Anlin Ma. Previously, I received my M.Sc. degree in Petroleum Geology in 2023 and my B.Eng. degree in Petroleum Geology in 2020 from Chengdu University of Technology, under the supervision of Prof. Jinmin Song.
 
 My research interests include sedimentary applications using computer vision, machine learning, and deep learning. I also work on geochemical sedimentology of carbonates using major and trace elements, carbonate U–Pb dating, and multi-isotopic proxies (C–O–Sr–Ca–Mg and triple oxygen isotopes), along with related modeling. Prior to geochemical analyses, I conduct careful field investigations and detailed petrographic examinations, including thin-section observation, cathodoluminescence (CL), and SEM analysis.

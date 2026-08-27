@@ -2,6 +2,9 @@
 <script src="{{ base_path }}/assets/js/portfolio-lightbox.js"></script>
 <script src="{{ base_path }}/assets/js/theme-toggle.js"></script>
 <script src="{{ base_path }}/assets/js/word-cloud.js"></script>
+{% if page.url == '/' %}
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
