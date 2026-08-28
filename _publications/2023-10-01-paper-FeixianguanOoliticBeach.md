@@ -3,6 +3,7 @@ title: "Distribution characteristics of oolitic beach in the second and third me
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/feixianguan-oolitic.jpg
 permalink: /publication/2023-10-01-paper-FeixianguanOoliticBeach

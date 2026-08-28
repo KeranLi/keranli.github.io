@@ -3,6 +3,7 @@ title: "Element enrichment characteristics and significance of microbialite fabr
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "Chinese"
 header:
   teaser: publications/microbialite-elements.jpg
 permalink: /publication/2024-02-01-paper-MicrobialiteElementEnrichment

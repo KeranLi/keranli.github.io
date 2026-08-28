@@ -4,6 +4,7 @@ title: "Spatial–Stratigraphic Information and Dynamic Range Attention Assist W
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "English"
 header:
   teaser: publications/dynamic-range-attention.jpg
 permalink: /publication/2025-04-08-paper-DynamicRangeAttention

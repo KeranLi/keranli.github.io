@@ -54,7 +54,7 @@
         {% endif %}
 
     {% if post.collection == 'publications' and post.author_role %}
-      <p class="publication-role"><i class="fas fa-user" aria-hidden="true"></i> <strong>Author role:</strong> {{ post.author_role }}</p>
+      <p class="publication-role"><span><i class="fas fa-user" aria-hidden="true"></i> <strong>Author role:</strong> {{ post.author_role }}</span>{% if post.article_language %}<span><i class="fas fa-language" aria-hidden="true"></i> <strong>Language:</strong> {{ post.article_language }}</span>{% endif %}</p>
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}

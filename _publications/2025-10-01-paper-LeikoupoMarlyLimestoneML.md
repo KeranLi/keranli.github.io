@@ -3,6 +3,7 @@ title: "Prediction of the distribution of marly limestone reservoirs in the seco
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/leikoupo-marly-ml.jpg
 permalink: /publication/2025-10-01-paper-LeikoupoMarlyLimestoneML

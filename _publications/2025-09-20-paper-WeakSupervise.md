@@ -3,6 +3,7 @@ title: "Weakly supervised semantic segmentation of microscopic carbonates on mar
 collection: publications
 primary_author: true
 author_role: "First and corresponding author"
+article_language: "English"
 header:
   teaser: publications/weak-supervise.jpg
 permalink: /publication/2025-09-20-paper-WeakSupervise

@@ -3,6 +3,7 @@ title: "Sedimentary characteristics and the geological significance of oil and g
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/jialingjiang-sedimentology.jpg
 permalink: /publication/2025-06-01-paper-JialingjiangSedimentology

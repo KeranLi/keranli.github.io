@@ -3,6 +3,7 @@ title: "High-resolution global distribution projections of 10 rodent genera unde
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "English"
 header:
   teaser: publications/gridscope-rodents.jpg
 permalink: /publication/2025-08-20-paper-GridScopeRodents

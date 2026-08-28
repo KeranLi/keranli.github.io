@@ -3,6 +3,7 @@ title: "Food security and land use under Sustainable Development Goals: Insights
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "English"
 header:
   teaser: publications/food-security.jpg
 permalink: /publication/2023-11-18-paper-FoodSecurityLandUse

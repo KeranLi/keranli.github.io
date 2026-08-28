@@ -44,7 +44,7 @@ layout: default
         {% endif %}
 
         {% if page.collection == 'publications' and page.author_role %}
-          <p class="publication-role"><i class="fas fa-user" aria-hidden="true"></i> <strong>Author role:</strong> {{ page.author_role }}</p>
+          <p class="publication-role"><span><i class="fas fa-user" aria-hidden="true"></i> <strong>Author role:</strong> {{ page.author_role }}</span>{% if page.article_language %}<span><i class="fas fa-language" aria-hidden="true"></i> <strong>Language:</strong> {{ page.article_language }}</span>{% endif %}</p>
         {% endif %}
         
              

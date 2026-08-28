@@ -3,6 +3,7 @@ title: "Dolomitization in the Lower Cambrian Longwangmiao Formation in northeast
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "Chinese"
 header:
   teaser: publications/longwangmiao-dolomitization.jpg
 permalink: /publication/2024-03-01-paper-LongwangmiaoDolomitization

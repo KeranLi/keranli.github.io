@@ -3,6 +3,7 @@ title: "OneDZ: a global detrital zircon database and implications for constructi
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "English"
 header:
   teaser: publications/onedz.jpg
 permalink: /publication/2026-06-01-paper-OneDZ

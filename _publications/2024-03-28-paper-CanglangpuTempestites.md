@@ -3,6 +3,7 @@ title: "Characteristics and sedimentary geological significance of tempestites i
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/canglangpu-tempestites.jpg
 permalink: /publication/2024-03-28-paper-CanglangpuTempestites

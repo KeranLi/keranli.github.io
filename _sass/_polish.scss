@@ -192,6 +192,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .publication-role {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em 1.15em;
   margin-top: -0.6em;
   margin-bottom: 0.9em;
   color: #647482;

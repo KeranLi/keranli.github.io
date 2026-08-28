@@ -3,6 +3,7 @@ title: "A knowledge graph for standard carbonate microfacies and its application
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "English"
 header:
   teaser: publications/microfacies-knowledge-graph.jpg
 permalink: /publication/2023-01-13-paper-MicrofaciesKnowledgeGraph

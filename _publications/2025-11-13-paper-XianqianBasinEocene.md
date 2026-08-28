@@ -3,6 +3,7 @@ title: "Early to middle Eocene (50-43 Ma) Xianqian Basin in central Tibet: Archi
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "English"
 header:
   teaser: publications/xianqian-basin.jpg
 permalink: /publication/2025-11-13-paper-XianqianBasinEocene

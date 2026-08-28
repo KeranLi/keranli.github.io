@@ -3,6 +3,7 @@ title: "An improved X-ray image diagnosis method for COVID-19 pneumonia on a lig
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "English"
 header:
   teaser: publications/mecnet-covid.jpg
 permalink: /publication/2023-02-10-paper-MECNetCovid

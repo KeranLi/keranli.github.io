@@ -3,6 +3,7 @@ title: "Framework and sedimentary model of microbial mound-bank complexes in Mem
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/dengying-mound-bank.jpg
 permalink: /publication/2023-02-01-paper-DengyingMicrobialMoundBank

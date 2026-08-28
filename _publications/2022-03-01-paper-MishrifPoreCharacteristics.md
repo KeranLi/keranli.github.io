@@ -3,6 +3,7 @@ title: "Pore characteristics of Cretaceous Mishrif Formation carbonate reservoir
 collection: publications
 primary_author: true
 author_role: "Corresponding author"
+article_language: "Chinese"
 header:
   teaser: publications/mishrif-pores.jpg
 permalink: /publication/2022-03-01-paper-MishrifPoreCharacteristics

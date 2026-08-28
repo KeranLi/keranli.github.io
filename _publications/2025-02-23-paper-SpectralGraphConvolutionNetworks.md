@@ -3,6 +3,7 @@ title: "Spectral graph convolution networks for microbialite lithology identific
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "English"
 header:
   teaser: publications/spectral.jpg
 permalink: /publication/2025-02-23-paper-SpectralGraphConvolutionNetworks

@@ -3,6 +3,7 @@ title: "Distribution prediction of the sepiolite-containing succession in Member
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/sepiolite-boosting.jpg
 permalink: /publication/2026-02-01-paper-SepioliteGradientBoosting

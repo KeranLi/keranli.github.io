@@ -3,6 +3,7 @@ title: "Middle Permian tectonic-sedimentary differentiation and petroleum explor
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/middle-permian-tectonic.jpg
 permalink: /publication/2022-08-01-paper-MiddlePermianTectonicSedimentary

@@ -3,6 +3,7 @@ title: "Cool-water sedimentary characteristics and depositional model of Member 
 collection: publications
 primary_author: false
 author_role: "Collaborative author"
+article_language: "Chinese"
 header:
   teaser: publications/maokou-cool-water.jpg
 permalink: /publication/2025-10-02-paper-MaokouCoolWater

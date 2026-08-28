@@ -3,6 +3,7 @@ title: "Carbonate microfacies classification model based on dual neural network:
 collection: publications
 primary_author: true
 author_role: "First author"
+article_language: "English"
 header:
   teaser: publications/carbonate-microfacies-dual-nn.jpg
 permalink: /publication/2022-12-12-paper-CarbonateMicrofaciesDualNN
