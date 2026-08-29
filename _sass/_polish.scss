@@ -206,6 +206,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #2a9fc0;
 }
 
+.publication-excerpt {
+  line-height: 1.65;
+}
+
+.publication-excerpt em {
+  color: #526170;
+}
+
 .author__avatar img {
   border: 3px solid #fff;
   box-shadow: 0 3px 14px rgba(31, 41, 55, 0.13);
@@ -270,6 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .publication-group-title { color: #eef3f6; }
   .publication-role { color: #aebbc4; }
+  .publication-excerpt em { color: #c2ccd3; }
   .visitor-counter { color: #c2ccd3; }
   .visitor-counter__item strong { color: #7ec8df; }
   .visitor-counter__divider { background: #3a464f; }
