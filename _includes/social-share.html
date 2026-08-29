@@ -11,17 +11,7 @@
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 
-  <button type="button" class="btn btn--wechat js-wechat-share" title="Share on WeChat" aria-haspopup="dialog"><i class="fab fa-weixin" aria-hidden="true"></i><span> WeChat</span></button>
+  <button type="button" class="btn btn--wechat js-wechat-share" data-share-url="{{ page.url | absolute_url }}" title="Share on WeChat" aria-haspopup="dialog"><i class="fab fa-weixin" aria-hidden="true"></i><span> WeChat</span></button>
 </section>
 
-<div class="wechat-share-modal" data-wechat-modal hidden>
-  <div class="wechat-share-modal__backdrop" data-wechat-close></div>
-  <div class="wechat-share-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="wechat-share-title">
-    <button type="button" class="wechat-share-modal__close" data-wechat-close aria-label="Close WeChat sharing dialog"><i class="fas fa-times" aria-hidden="true"></i></button>
-    <h2 id="wechat-share-title">Share on WeChat</h2>
-    <p>Scan this QR code with WeChat to open this page.</p>
-    <img class="wechat-share-modal__qr" data-wechat-qr alt="QR code for this page">
-    <button type="button" class="btn wechat-share-modal__copy" data-wechat-copy><i class="fas fa-link" aria-hidden="true"></i><span> Copy link</span></button>
-    <span class="wechat-share-modal__status" data-wechat-status role="status" aria-live="polite"></span>
-  </div>
-</div>
+{% include wechat-share-modal.html %}

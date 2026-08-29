@@ -215,6 +215,40 @@ h1, h2, h3, h4, h5, h6 {
   color: #526170;
 }
 
+.publication-actions,
+.publication-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.publication-actions { gap: 0.55em 1em; margin: 0.2em 0 0.8em; }
+.publication-share { gap: 0.35em; }
+.publication-share__label { margin-right: 0.15em; color: #647482; font-size: 0.75em; font-weight: 600; }
+
+.publication-share__button {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  color: #fff !important;
+  border: 0;
+  border-radius: 4px;
+  font-size: 0.72em;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.publication-share__button:hover,
+.publication-share__button:focus { color: #fff !important; filter: brightness(0.88); transform: translateY(-1px); }
+.publication-share__button--twitter { background: #55acee; }
+.publication-share__button--facebook { background: #3b5998; }
+.publication-share__button--linkedin { background: #0077b5; }
+.publication-share__button--wechat { background: #1a9b5f; }
+
 .btn--wechat {
   color: #1a8f5a !important;
   border: 1px solid #b8dcca !important;

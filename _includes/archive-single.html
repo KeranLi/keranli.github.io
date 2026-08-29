@@ -68,7 +68,21 @@
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% elsif post.paperurl %}
-      <p>Download <a href="{{ post.paperurl }}">here</a></p>
+      {% if post.collection == 'publications' %}
+        {% assign publication_url = post.url | absolute_url %}
+        <div class="publication-actions">
+          <span class="publication-download">Download <a href="{{ post.paperurl }}">here</a></span>
+          <span class="publication-share" aria-label="Share {{ post.title | escape }}">
+            <span class="publication-share__label">Share</span>
+            <a class="publication-share__button publication-share__button--twitter" href="https://twitter.com/intent/tweet?text={{ post.title | append: ' ' | append: publication_url | url_encode }}" target="_blank" rel="noopener" title="Share on Twitter" aria-label="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+            <a class="publication-share__button publication-share__button--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ publication_url | url_encode }}" target="_blank" rel="noopener" title="Share on Facebook" aria-label="Share on Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a class="publication-share__button publication-share__button--linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ publication_url | url_encode }}" target="_blank" rel="noopener" title="Share on LinkedIn" aria-label="Share on LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+            <button type="button" class="publication-share__button publication-share__button--wechat js-wechat-share" data-share-url="{{ publication_url }}" title="Share on WeChat" aria-label="Share on WeChat" aria-haspopup="dialog"><i class="fab fa-weixin" aria-hidden="true"></i></button>
+          </span>
+        </div>
+      {% else %}
+        <p>Download <a href="{{ post.paperurl }}">here</a></p>
+      {% endif %}
     {% endif %}
 
     {% if post.collection == 'publications' and teaser %}
