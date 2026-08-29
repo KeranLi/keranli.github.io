@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/food-security.jpg
 permalink: /publication/2023-11-18-paper-FoodSecurityLandUse
-excerpt: 'This study evaluates food consumption, land demand, and regional food-security pressure across China.'
+excerpt: "The study quantifies arable-land demand and food-related land footprints across 31 provincial regions in China. By connecting supply-side production with demand-side consumption, it reveals regional food-security disparities and management priorities."
 date: 2023-11-18
 venue: 'Foods'
 paperurl: 'https://keranli.github.io/files/FoodSecurityLandUse.pdf'

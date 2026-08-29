@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/leikoupo-dataset.jpg
 permalink: /publication/2023-03-23-paper-LeikoupoMicrographDataset
-excerpt: 'This data paper presents 1,818 carbonate thin-section images and supporting identifications from the Leikoupo Formation.'
+excerpt: "The paper releases 1,818 polarized-light carbonate micrographs with thin-section identifications from six Leikoupo Formation wells. The paired image and geological metadata provide a reusable benchmark for microfacies interpretation, reservoir studies, and machine learning."
 date: 2023-03-23
 venue: 'China Scientific Data'
 paperurl: 'https://keranli.github.io/files/LeikoupoMicrographDataset.pdf'

@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/jialingjiang-sedimentology.jpg
 permalink: /publication/2025-06-01-paper-JialingjiangSedimentology
-excerpt: 'This study defines a two-depression and one-uplift depositional pattern for the fourth Jialingjiang Formation member.'
+excerpt: "Core, thin-section, well-log, and seismic interpretations reveal restricted-platform and evaporitic-platform facies in northeastern Sichuan. A two-depression and one-uplift paleogeomorphic model explains lagoon, evaporite, and grain-bank distribution and delineates exploration belts."
 date: 2025-06-01
 venue: 'Journal of Chengdu University of Technology (Science & Technology Edition)'
 paperurl: 'https://keranli.github.io/files/JialingjiangSedimentology.pdf'

@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/gridscope-rodents.jpg
 permalink: /publication/2025-08-20-paper-GridScopeRodents
-excerpt: 'GridScopeRodents projects the global distributions of 10 rodent genera under four climate scenarios through 2100.'
+excerpt: "GridScopeRodents provides global 1/12-degree distribution projections for 10 rodent genera under four SSP-RCP scenarios and 10 climate models. The resulting GeoTIFF dataset supports biodiversity, agricultural, invasive-species, and disease-ecology applications through 2100."
 date: 2025-08-20
 venue: 'Scientific Data'
 paperurl: 'https://keranli.github.io/files/GridScopeRodents.pdf'

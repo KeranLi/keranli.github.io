@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/onedz.jpg
 permalink: /publication/2026-06-01-paper-OneDZ
-excerpt: 'This paper presents OneDZ, a global detrital zircon U-Pb geochronology and Lu-Hf isotope database.'
+excerpt: "OneDZ integrates global detrital-zircon U-Pb geochronology and Lu-Hf isotope records with sample, location, stratigraphic, depositional-age, and elemental metadata. The study presents an AI- and programming-assisted workflow for constructing a large, quality-controlled geoscience database."
 date: 2026-06-01
 venue: 'Earth System Science Data'
 paperurl: 'https://keranli.github.io/files/OneDZ.pdf'

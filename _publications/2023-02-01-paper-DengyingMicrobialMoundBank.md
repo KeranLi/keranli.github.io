@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/dengying-mound-bank.jpg
 permalink: /publication/2023-02-01-paper-DengyingMicrobialMoundBank
-excerpt: 'This study classifies microbial mound-bank structures across depositional zones of the second Dengying Formation member.'
+excerpt: "Field sections, thin sections, and drone photogrammetry are combined to resolve the architecture of microbial mound-bank complexes. Four mound-bank types and their facies transitions are synthesized into a depositional model from intra-platform settings to the slope."
 date: 2023-02-01
 venue: 'Acta Petrolei Sinica'
 paperurl: 'https://keranli.github.io/files/DengyingMicrobialMoundBank.pdf'

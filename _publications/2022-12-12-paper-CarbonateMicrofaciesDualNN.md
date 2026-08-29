@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/carbonate-microfacies-dual-nn.jpg
 permalink: /publication/2022-12-12-paper-CarbonateMicrofaciesDualNN
-excerpt: 'This paper develops a dual neural network for classifying carbonate microfacies from well logs in the Moxi gas field.'
+excerpt: "A dual-neural-network workflow learns carbonate microfacies patterns from multiple well-log measurements and predicts uncored wells. The model distinguishes four Dengying Formation microfacies and extends facies interpretation across restricted-platform and platform-margin settings."
 date: 2022-12-12
 venue: 'Arabian Journal of Geosciences'
 paperurl: 'https://keranli.github.io/files/CarbonateMicrofaciesDualNN.pdf'

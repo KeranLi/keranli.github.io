@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/microbialite-elements.jpg
 permalink: /publication/2024-02-01-paper-MicrobialiteElementEnrichment
-excerpt: 'This study links trace-element enrichment in Dengying Formation microbialite fabrics to late Ediacaran paleoenvironmental conditions.'
+excerpt: "Microbialite fabric classification is coupled with microscale elemental analysis across the second and fourth Dengying Formation members. The study uses fabric-specific enrichment patterns to infer oxygen-poor seawater and stronger water-column stratification during the fourth member."
 date: 2024-02-01
 venue: 'Acta Sedimentologica Sinica'
 paperurl: 'https://keranli.github.io/files/MicrobialiteElementEnrichment.pdf'

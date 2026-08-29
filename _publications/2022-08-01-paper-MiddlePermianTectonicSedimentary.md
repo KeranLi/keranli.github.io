@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/middle-permian-tectonic.jpg
 permalink: /publication/2022-08-01-paper-MiddlePermianTectonicSedimentary
-excerpt: 'This paper synthesizes Middle Permian tectonic-sedimentary differentiation and its implications for petroleum exploration in the Sichuan Basin.'
+excerpt: "The study reconstructs Middle Permian tectonic and depositional differentiation across the Sichuan Basin using platform-trough architecture and stratigraphic thickness. It translates this basin-scale framework into a focused exploration model for predicting favorable carbonate reservoir intervals."
 date: 2022-08-01
 venue: 'Journal of Chengdu University of Technology (Science & Technology Edition)'
 paperurl: 'https://keranli.github.io/files/MiddlePermianTectonicSedimentary.pdf'

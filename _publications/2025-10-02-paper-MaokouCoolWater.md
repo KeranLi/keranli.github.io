@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/maokou-cool-water.jpg
 permalink: /publication/2025-10-02-paper-MaokouCoolWater
-excerpt: 'Multiproxy paleotemperature estimates reveal cool-water carbonate deposition in the first Maokou Formation member.'
+excerpt: "Field, petrographic, elemental, stable-isotope, and clumped-isotope evidence reconstructs cool-water carbonate deposition in the first Maokou Formation member. The study shows how global climate change and platform-depression architecture jointly controlled facies and rhythmic stratification."
 date: 2025-10-01
 venue: 'Acta Sedimentologica Sinica'
 paperurl: 'https://keranli.github.io/files/MaokouCoolWater.pdf'

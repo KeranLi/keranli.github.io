@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/leikoupo-marly-ml.jpg
 permalink: /publication/2025-10-01-paper-LeikoupoMarlyLimestoneML
-excerpt: 'An LSTM workflow predicts the distribution and thickness of marly-limestone reservoirs in central Sichuan.'
+excerpt: "The study fuses core, petrographic, logging, mineralogical, and facies data in an LSTM-based prediction workflow. Its point-line-area interpretation links marly-limestone thickness and distribution to favorable reservoir zones in central Sichuan."
 date: 2025-10-01
 venue: 'Journal of Chengdu University of Technology (Science & Technology Edition)'
 paperurl: 'https://keranli.github.io/files/LeikoupoMarlyLimestoneML.pdf'

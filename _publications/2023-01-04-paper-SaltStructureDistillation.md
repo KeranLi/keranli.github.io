@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/salt-structure.jpg
 permalink: /publication/2023-01-04-paper-SaltStructureDistillation
-excerpt: 'This paper combines target flipping, multiple distillation, and self-distillation to identify salt structures from limited and imbalanced seismic images.'
+excerpt: "The study develops a U-Net workflow that combines target flipping, multiple distillation, and self-distillation for limited and imbalanced seismic data. This lightweight training strategy improves automatic salt-structure identification across public data and Hith evaporite examples."
 date: 2023-01-04
 venue: 'Frontiers in Earth Science'
 paperurl: 'https://keranli.github.io/files/SaltStructureDistillation.pdf'

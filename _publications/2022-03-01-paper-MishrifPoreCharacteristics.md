@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/mishrif-pores.jpg
 permalink: /publication/2022-03-01-paper-MishrifPoreCharacteristics
-excerpt: 'This study characterizes the pore systems and facies controls of Mishrif carbonate reservoirs in the eastern Rub al Khali Basin.'
+excerpt: "Core, thin-section, gas, mercury-injection, and NMR data are integrated to compare the Mishrif-1 and Mishrif-3 reservoir intervals. The study links pore-system quality to reef and bioclastic-shoal microfacies, identifying the facies controls on high-porosity and high-permeability reservoirs."
 date: 2022-03-01
 venue: 'Marine Origin Petroleum Geology'
 paperurl: 'https://keranli.github.io/files/MishrifPoreCharacteristics.pdf'

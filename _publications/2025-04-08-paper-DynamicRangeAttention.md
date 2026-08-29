@@ -8,7 +8,7 @@ article_language: "English"
 header:
   teaser: publications/dynamic-range-attention.jpg
 permalink: /publication/2025-04-08-paper-DynamicRangeAttention
-excerpt: 'This paper is about the application of Dynamic Range Attention for well-logging interpretation.'
+excerpt: "The paper proposes Spatial and Stratigraphic Information Processing to encode geological sequences, together with Dynamic Range Attention to adapt the receptive field to global context. The resulting DRA-BiLSTM improves well-log lithology interpretation while reducing the cost of modeling long-range stratigraphic structure."
 date: 2025-04-08
 venue: 'IEEE Geoscience and Remote Sensing Letters'
 paperurl: 'https://keranli.github.io/files/SpaceSpatialAttention.pdf'

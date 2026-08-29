@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/mecnet-covid.jpg
 permalink: /publication/2023-02-10-paper-MECNetCovid
-excerpt: 'MECNet provides lightweight COVID-19 X-ray classification designed for deployment on embedded devices.'
+excerpt: "The study redesigns MobileNetV3 and its attention mechanism into MECNet for COVID-19 pneumonia classification. With 0.85 million parameters and 73 MFLOPs, the model delivers practical accuracy and inference speed on embedded devices."
 date: 2023-02-10
 venue: '2023 3rd International Conference on Bioinformatics and Intelligent Computing'
 paperurl: 'https://keranli.github.io/files/MECNetCovid.pdf'

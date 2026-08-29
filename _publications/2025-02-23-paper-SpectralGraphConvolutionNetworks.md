@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/spectral.jpg
 permalink: /publication/2025-02-23-paper-SpectralGraphConvolutionNetworks
-excerpt: 'This paper is about the application of spectral graph comvolution networks for lithology identification.'
+excerpt: "The study introduces spectral graph convolution networks that combine time-series and frequency-domain information from conventional well logs. Applied to Dengying Formation microbialites, the model improves lithology classification and supports automated reservoir interpretation."
 date: 2025-02-23
 venue: 'Petroleum Science'
 paperurl: 'https://keranli.github.io/files/Spectral.pdf'

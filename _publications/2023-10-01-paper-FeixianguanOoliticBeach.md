@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/feixianguan-oolitic.jpg
 permalink: /publication/2023-10-01-paper-FeixianguanOoliticBeach
-excerpt: 'Outcrop, thin-section, logging, and seismic data constrain oolitic-bank distribution in southeastern Chongqing.'
+excerpt: "Outcrop, thin-section, well-log, and seismic evidence is integrated to establish lithologic and electrical markers for the Feixianguan Formation. The resulting stratigraphic framework maps oolitic-bank development and identifies favorable reservoir facies in southeastern Chongqing."
 date: 2023-10-01
 venue: 'Geoscience'
 paperurl: 'https://keranli.github.io/files/FeixianguanOoliticBeach.pdf'

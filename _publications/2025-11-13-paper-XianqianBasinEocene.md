@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/xianqian-basin.jpg
 permalink: /publication/2025-11-13-paper-XianqianBasinEocene
-excerpt: 'Integrated basin records constrain Eocene aridity and a southward trend of Tibetan Plateau surface uplift.'
+excerpt: "Stratigraphy, sedimentology, paleontology, provenance, and geochronology are integrated to reconstruct the Xianqian Basin between 50 and 43 Ma. The evidence identifies an arid, internally drained basin and supports southward progression of Tibetan Plateau uplift."
 date: 2025-11-13
 venue: 'GSA Bulletin'
 paperurl: 'https://keranli.github.io/files/XianqianBasinEocene.pdf'

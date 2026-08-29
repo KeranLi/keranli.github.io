@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/weak-supervise.jpg
 permalink: /publication/2025-09-20-paper-WeakSupervise
-excerpt: 'This paper is about the carbonate thin section segment via waek supervised learning.'
+excerpt: "The paper introduces CamNet, a weakly supervised framework that combines class activation mapping, GLCM texture enhancement, and knowledge distillation for carbonate thin-section segmentation. Its approximately 800k-parameter architecture achieves accurate, fast inference suitable for resource-constrained edge devices."
 date: 2025-09-20
 venue: 'Computers and Geosciences'
 paperurl: 'https://keranli.github.io/files/WeakSupervise.pdf'

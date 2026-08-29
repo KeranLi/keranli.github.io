@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/longwangmiao-dolomitization.jpg
 permalink: /publication/2024-03-01-paper-LongwangmiaoDolomitization
-excerpt: 'Calcium isotope and temperature simulations constrain the dolomitizing fluids of the Longwangmiao Formation in northeastern Yunnan.'
+excerpt: "Petrography, multiple isotope systems, calcium-isotope simulations, and temperature estimates are integrated across three limestone-to-dolomite cycles. The combined evidence identifies seepage reflux as the principal dolomitization mechanism in northeastern Yunnan."
 date: 2024-03-01
 venue: 'Earth Science Frontiers'
 paperurl: 'https://keranli.github.io/files/LongwangmiaoDolomitization.pdf'

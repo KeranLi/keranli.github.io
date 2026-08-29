@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/deep-carbonate.jpg
 permalink: /publication/2026-03-01-paper-DeepCarbonate
-excerpt: 'This paper presents DeepCarbonate, a carbonate thin-section image dataset and benchmark for deep learning.'
+excerpt: "DeepCarbonate standardizes 55,786 carbonate thin-section images into 22 lithological categories, three optical modes, and reproducible train-validation-test splits. Benchmarking ResNet, VGG, DenseNet, MobileNet, and EfficientNet establishes a common baseline for carbonate petrography computer vision."
 date: 2026-01-01
 venue: 'Scientific Data'
 paperurl: 'https://keranli.github.io/files/DeepCarbonate.pdf'

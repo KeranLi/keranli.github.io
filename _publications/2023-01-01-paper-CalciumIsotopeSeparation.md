@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/calcium-isotope-separation.jpg
 permalink: /publication/2023-01-01-paper-CalciumIsotopeSeparation
-excerpt: 'This paper improves the chemical separation procedure for calcium isotope analysis of carbonate geological samples.'
+excerpt: "The study systematically tests hydrochloric-acid conditions for calcium purification from carbonate geological samples before TIMS analysis. The optimized procedure improves separation reliability and broadens calcium-isotope applications to Qinghai-Tibet Plateau materials."
 date: 2023-01-01
 venue: 'Chinese Journal of Inorganic Analytical Chemistry'
 paperurl: 'https://keranli.github.io/files/CalciumIsotopeSeparation.pdf'

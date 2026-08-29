@@ -7,7 +7,7 @@ article_language: "Chinese"
 header:
   teaser: publications/sepiolite-boosting.jpg
 permalink: /publication/2026-02-01-paper-SepioliteGradientBoosting
-excerpt: 'Multiple gradient-boosting models predict the occurrence, habit, content, and thickness of sepiolite-bearing strata.'
+excerpt: "The study combines logging sensitivity analysis, SMOTE balancing, CatBoost classification, and XGBoost regression to model sepiolite-bearing strata. The multi-stage workflow predicts occurrence, habit, content, and thickness while locating the principal depositional center and favorable development areas."
 date: 2026-02-01
 venue: 'Journal of Palaeogeography (Chinese Edition)'
 paperurl: 'https://keranli.github.io/files/SepioliteGradientBoosting.pdf'

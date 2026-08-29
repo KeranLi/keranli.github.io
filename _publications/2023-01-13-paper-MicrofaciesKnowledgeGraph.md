@@ -7,7 +7,7 @@ article_language: "English"
 header:
   teaser: publications/microfacies-knowledge-graph.jpg
 permalink: /publication/2023-01-13-paper-MicrofaciesKnowledgeGraph
-excerpt: 'A standard carbonate microfacies knowledge graph enables automated microfacies identification and relative sea-level reconstruction.'
+excerpt: "The study builds an ontology and data layer for standard carbonate microfacies and applies it to late Ediacaran thin sections. Its knowledge-graph workflow automates microfacies identification and reconstructs high-resolution relative sea-level changes."
 date: 2023-01-13
 venue: 'Geoscience Frontiers'
 paperurl: 'https://keranli.github.io/files/KnowledgeGraphMicrofacies.pdf'
