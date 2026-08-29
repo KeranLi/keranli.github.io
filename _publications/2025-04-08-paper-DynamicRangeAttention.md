@@ -10,7 +10,7 @@ header:
 permalink: /publication/2025-04-08-paper-DynamicRangeAttention
 excerpt: 'This paper is about the application of Dynamic Range Attention for well-logging interpretation.'
 date: 2025-04-08
-venue: 'IEEE GEOSCIENCE AND REMOTE SENSING LETTERS'
+venue: 'IEEE Geoscience and Remote Sensing Letters'
 paperurl: 'https://keranli.github.io/files/SpaceSpatialAttention.pdf'
 #citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
