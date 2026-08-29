@@ -216,16 +216,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn--wechat {
-  color: #1a8f5a;
-  border-color: #b8dcca;
-  background: transparent;
+  color: #1a8f5a !important;
+  border: 1px solid #b8dcca !important;
+  background: #e9f7ef !important;
 }
 
 .btn--wechat:hover,
 .btn--wechat:focus {
-  color: #fff;
-  border-color: #1a8f5a;
-  background: #1a8f5a;
+  color: #fff !important;
+  border-color: #1a8f5a !important;
+  background: #1a8f5a !important;
 }
 
 .wechat-share-modal[hidden] { display: none; }
@@ -329,8 +329,8 @@ h1, h2, h3, h4, h5, h6 {
   .publication-group-title { color: #eef3f6; }
   .publication-role { color: #aebbc4; }
   .publication-excerpt em { color: #c2ccd3; }
-  .btn--wechat { color: #6fd19a; border-color: #356d4f; }
-  .btn--wechat:hover, .btn--wechat:focus { color: #18251f; background: #6fd19a; border-color: #6fd19a; }
+  .btn--wechat { color: #8be0ad !important; border-color: #356d4f !important; background: #203b2d !important; }
+  .btn--wechat:hover, .btn--wechat:focus { color: #18251f !important; background: #6fd19a !important; border-color: #6fd19a !important; }
   .wechat-share-modal__dialog { color: #eef3f6; background: #232a30; }
   .wechat-share-modal__dialog p, .wechat-share-modal__close, .wechat-share-modal__status { color: #aebbc4; }
   .wechat-share-modal__copy { color: #6fd19a; border-color: #356d4f; }
