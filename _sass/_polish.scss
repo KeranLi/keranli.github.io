@@ -215,6 +215,55 @@ h1, h2, h3, h4, h5, h6 {
   color: #526170;
 }
 
+.btn--wechat {
+  color: #1a8f5a;
+  border-color: #b8dcca;
+  background: transparent;
+}
+
+.btn--wechat:hover,
+.btn--wechat:focus {
+  color: #fff;
+  border-color: #1a8f5a;
+  background: #1a8f5a;
+}
+
+.wechat-share-modal[hidden] { display: none; }
+
+.wechat-share-modal {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1.25em;
+}
+
+.wechat-share-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 29, 35, 0.62);
+}
+
+.wechat-share-modal__dialog {
+  position: relative;
+  width: min(100%, 340px);
+  padding: 2em 1.5em 1.5em;
+  color: #263746;
+  background: #fff;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.24);
+  text-align: center;
+}
+
+.wechat-share-modal__dialog h2 { margin: 0 0 0.45em; font-size: 1.25em; }
+.wechat-share-modal__dialog p { margin: 0 0 1em; color: #647482; font-size: 0.85em; }
+.wechat-share-modal__qr { display: block; width: 240px; max-width: 100%; height: auto; margin: 0 auto 1em; }
+.wechat-share-modal__close { position: absolute; top: 0.65em; right: 0.7em; padding: 0.2em; color: #647482; background: transparent; border: 0; cursor: pointer; }
+.wechat-share-modal__close:hover { color: #1a8f5a; }
+.wechat-share-modal__copy { color: #1a8f5a; border-color: #b8dcca; background: transparent; }
+.wechat-share-modal__status { display: block; min-height: 1.4em; margin-top: 0.6em; color: #647482; font-size: 0.75em; }
+.wechat-share-open { overflow: hidden; }
+
 .author__avatar img {
   border: 3px solid #fff;
   box-shadow: 0 3px 14px rgba(31, 41, 55, 0.13);
@@ -280,6 +329,11 @@ h1, h2, h3, h4, h5, h6 {
   .publication-group-title { color: #eef3f6; }
   .publication-role { color: #aebbc4; }
   .publication-excerpt em { color: #c2ccd3; }
+  .btn--wechat { color: #6fd19a; border-color: #356d4f; }
+  .btn--wechat:hover, .btn--wechat:focus { color: #18251f; background: #6fd19a; border-color: #6fd19a; }
+  .wechat-share-modal__dialog { color: #eef3f6; background: #232a30; }
+  .wechat-share-modal__dialog p, .wechat-share-modal__close, .wechat-share-modal__status { color: #aebbc4; }
+  .wechat-share-modal__copy { color: #6fd19a; border-color: #356d4f; }
   .visitor-counter { color: #c2ccd3; }
   .visitor-counter__item strong { color: #7ec8df; }
   .visitor-counter__divider { background: #3a464f; }
