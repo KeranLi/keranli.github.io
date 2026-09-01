@@ -58,4 +58,25 @@
     if (!repo) return;
     chart.innerHTML = '<a class="software-entry__activity-fallback" href="https://github.com/' + repo + '/commits" aria-label="View commit activity on GitHub"><img src="https://img.shields.io/github/commit-activity/w/' + repo + '?label=weekly%20commits&style=flat" alt="Weekly commit activity"></a>';
   });
+
+  // Sort each software group by recent commit count when GitHub permits API access.
+  document.querySelectorAll("[data-software-list]").forEach(function (list) {
+    var entries = Array.from(list.querySelectorAll(".software-entry"));
+    Promise.all(entries.map(function (entry) {
+      var repo = entry.getAttribute("data-repo");
+      return fetch("https://api.github.com/repos/" + repo + "/commits?per_page=100", { headers: { Accept: "application/vnd.github+json" } })
+        .then(function (response) { if (!response.ok) throw new Error("activity unavailable"); return response.json(); })
+        .then(function (commits) { return { entry: entry, count: Array.isArray(commits) ? commits.length : 0 }; })
+        .catch(function () { return { entry: entry, count: -1 }; });
+    })).then(function (scores) {
+      if (scores.every(function (score) { return score.count < 0; })) return;
+      scores.sort(function (a, b) {
+        if (b.count !== a.count) return b.count - a.count;
+        var aName = a.entry.querySelector(".software-entry__title").textContent.trim().toLowerCase();
+        var bName = b.entry.querySelector(".software-entry__title").textContent.trim().toLowerCase();
+        return aName.localeCompare(bName);
+      });
+      scores.forEach(function (score) { list.appendChild(score.entry); });
+    });
+  });
 }());
