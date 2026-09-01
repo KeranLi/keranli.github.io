@@ -56,14 +56,6 @@
   charts.forEach(function (chart) {
     var repo = chart.parentElement.getAttribute("data-repo") || chart.closest("[data-repo]").getAttribute("data-repo");
     if (!repo) return;
-    load(repo, 0)
-      .then(function (weeks) {
-        if (!Array.isArray(weeks) || !weeks.length) throw new Error("No activity data");
-        draw(chart, weeks.slice(-12));
-      })
-      .catch(function () {
-        var repo = chart.closest("[data-repo]").getAttribute("data-repo");
-        chart.innerHTML = '<a class="software-entry__activity-fallback" href="https://github.com/' + repo + '/commits" aria-label="View commit activity on GitHub"><img src="https://img.shields.io/github/commit-activity/w/' + repo + '?label=weekly%20commits&style=flat" alt="Weekly commit activity"></a>';
-      });
+    chart.innerHTML = '<a class="software-entry__activity-fallback" href="https://github.com/' + repo + '/commits" aria-label="View commit activity on GitHub"><img src="https://img.shields.io/github/commit-activity/w/' + repo + '?label=weekly%20commits&style=flat" alt="Weekly commit activity"></a>';
   });
 }());
