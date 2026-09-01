@@ -27,6 +27,29 @@
         }
         if (!response.ok) throw new Error("GitHub activity unavailable");
         return response.json();
+      })
+      .catch(function () {
+        // The stats endpoint may remain in GitHub's 202 processing state.
+        // Fall back to the regular commits endpoint and aggregate locally.
+        return fetch("https://api.github.com/repos/" + repo + "/commits?per_page=100", { headers: { Accept: "application/vnd.github+json" } })
+          .then(function (response) {
+            if (!response.ok) throw new Error("GitHub commits unavailable");
+            return response.json();
+          })
+          .then(function (commits) {
+            var now = new Date();
+            var start = new Date(now.getTime() - 12 * 7 * 24 * 60 * 60 * 1000);
+            var weeks = Array.from({ length: 12 }, function () { return { total: 0 }; });
+            commits.forEach(function (commit) {
+              var stamp = commit && commit.commit && commit.commit.author && commit.commit.author.date;
+              if (!stamp) return;
+              var date = new Date(stamp);
+              if (date < start) return;
+              var index = Math.min(11, Math.floor((date - start) / (7 * 24 * 60 * 60 * 1000)));
+              weeks[index].total += 1;
+            });
+            return weeks;
+          });
       });
   }
 
@@ -38,6 +61,9 @@
         if (!Array.isArray(weeks) || !weeks.length) throw new Error("No activity data");
         draw(chart, weeks.slice(-12));
       })
-      .catch(function () { chart.parentElement.classList.add("software-entry__activity--unavailable"); });
+      .catch(function () {
+        chart.parentElement.classList.add("software-entry__activity--unavailable");
+        chart.innerHTML = '<span class="software-entry__activity-empty">Activity unavailable</span>';
+      });
   });
 }());
