@@ -62,8 +62,8 @@
         draw(chart, weeks.slice(-12));
       })
       .catch(function () {
-        chart.parentElement.classList.add("software-entry__activity--unavailable");
-        chart.innerHTML = '<span class="software-entry__activity-empty">Activity unavailable</span>';
+        var repo = chart.closest("[data-repo]").getAttribute("data-repo");
+        chart.innerHTML = '<a class="software-entry__activity-fallback" href="https://github.com/' + repo + '/commits" aria-label="View commit activity on GitHub"><img src="https://img.shields.io/github/commit-activity/w/' + repo + '?label=weekly%20commits&style=flat" alt="Weekly commit activity"></a>';
       });
   });
 }());

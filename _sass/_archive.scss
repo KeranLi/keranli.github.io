@@ -486,7 +486,17 @@
 
 .software-entry__activity-bars rect { fill: rgba(42, 159, 192, 0.28); }
 .software-entry__activity-line { fill: none; stroke: $info-color; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
-.software-entry__activity-empty { color: $gray; font-size: $type-size-7; }
+.software-entry__activity-fallback {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+
+  img {
+    display: block;
+    height: 20px;
+    width: auto;
+  }
+}
 /*
    Portfolio projects
    ========================================================================== */
