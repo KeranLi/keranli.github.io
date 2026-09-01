@@ -86,10 +86,10 @@
   tags: ["Carbonate Petrography", "Computer Vision", "Benchmark"]
   url: "https://github.com/KeranLi/DeepCarbonate"
 
-- name: "Awsome Paleo Elevation"
+- name: "Awesome Paleo Elevation"
   group: "library"
   category: "Paleoclimate and Topography"
   description: "A computational toolkit for reconstructing and analyzing paleo-elevation, supporting reproducible topographic and paleoclimate workflows."
   language: "Python"
   tags: ["Paleo-elevation", "Paleoclimate", "Topography"]
-  url: "https://github.com/KeranLi/awsome-paleo-elevation"
+  url: "https://github.com/KeranLi/awesome-paleo-elevation"
