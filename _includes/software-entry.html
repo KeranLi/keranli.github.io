@@ -11,8 +11,8 @@
   </div>
   <p class="software-entry__description"><em>&quot;{{ software.description | escape }}&quot;</em></p>
   <div class="software-entry__tags">
-    <span class="software-entry__language"><i class="fas fa-code" aria-hidden="true"></i>{{ software.language }}</span>
-    {% for tag in software.tags %}<span>{{ tag }}</span>{% endfor %}
+    <span class="software-entry__badge software-entry__language"><i class="fas fa-code" aria-hidden="true"></i>{{ software.language }}</span>
+    {% for tag in software.tags %}<span class="software-entry__badge">{{ tag }}</span>{% endfor %}
   </div>
   <div class="software-entry__activity" data-repo="{{ software.url | replace: 'https://github.com/', '' }}" aria-label="Recent GitHub commit activity for {{ software.name }}">
     <div class="software-entry__activity-chart" data-activity-chart></div>

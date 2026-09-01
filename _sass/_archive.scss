@@ -429,19 +429,28 @@
 .software-entry__tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4em 1em;
-  color: $gray;
+  gap: 0.45em;
+  color: $darker-gray;
   font-size: $type-size-7;
+}
 
-  > span:not(:last-child) {
-    padding-right: 1em;
-    border-right: 1px solid $border-color;
-  }
+.software-entry__badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8em;
+  padding: 0.15em 0.65em;
+  border: 1px solid rgba(42, 159, 192, 0.28);
+  border-radius: 3px;
+  background: rgba(42, 159, 192, 0.08);
+  color: $darker-gray;
+  font-size: 0.9em;
+  line-height: 1.25;
 }
 
 .software-entry__language {
-  color: $darker-gray;
   font-weight: bold;
+  border-color: rgba(42, 159, 192, 0.45);
+  background: rgba(42, 159, 192, 0.14);
 
   i {
     margin-right: 0.4em;
