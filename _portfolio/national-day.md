@@ -3,7 +3,7 @@ title: "National Day in Chengdu: Travel and a Wedding"
 collection: portfolio
 permalink: /portfolio/2026-national-day-chengdu
 category: "Personal Journey"
-date: 2026-08-25
+date: 2026-08-01
 venue: "Chengdu, Sichuan, China"
 images:
   - 20261001_1.jpg
@@ -23,5 +23,6 @@ excerpt: "During the National Day holiday, I explored Chengdu, enjoyed time arou
   <img src="/images/20261001_5.jpg" alt="Celebrating with family and friends in Chengdu">
   <img src="/images/20261001_6.jpg" alt="National Day holiday memories in Chengdu">
 </div>
+
 
 
