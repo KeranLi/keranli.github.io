@@ -20,6 +20,7 @@ Currently, I am training large pretrained foundation models (backbone networks) 
 
 ## News
 
+* **[10/2026]** Presented a poster on [*Diagenetic fluid overprinting of micrite stable isotopes: implications for paleo-elevation reconstruction*](/publication/2026-09-23-paper-DiageneticFluidOverprinting) at the 38th HKT Conference in Chengdu from October 16 to 19.
 * **[09/2026]** One paper on diagenetic fluid overprinting of micrite stable isotopes was accepted for publication in *Geochimica et Cosmochimica Acta*.
 * **[06/2026]** One paper on the OneDZ global detrital zircon database was published in *Earth System Science Data*.
 * **[03/2026]** Started cooperation with Ardi's research group, [PREDICTIVE](https://www.predict-cpg.com/) on *FastMeasure*.
