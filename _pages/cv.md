@@ -40,7 +40,7 @@ Selected research projects
 Selected publications
 ======
 
-I have published or co-authored **13 papers as first or corresponding author**, including work in *Earth System Science Data*, *Scientific Data*, *Computers & Geosciences*, *Petroleum Science*, and *IEEE Geoscience and Remote Sensing Letters*. Representative topics include:
+I have published or co-authored **14 papers as first or corresponding author**, including work in *Geochimica et Cosmochimica Acta*, *Earth System Science Data*, *Scientific Data*, *Computers & Geosciences*, *Petroleum Science*, and *IEEE Geoscience and Remote Sensing Letters*. Representative topics include:
 
 * Carbonate and lake-system diagenesis, Ca-S-triple oxygen isotope proxies, and paleoaltimetry.
 * Global detrital-zircon data infrastructure and large-scale sedimentary databases.
