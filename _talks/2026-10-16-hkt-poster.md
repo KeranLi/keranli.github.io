@@ -3,8 +3,8 @@ title: "Diagenetic fluid overprinting of micrite stable isotopes: implications f
 collection: talks
 type: "Poster"
 permalink: /talks/2026-10-16-hkt-poster
-venue: "The 38th HKT Conference"
+venue: "38th Himalaya-Karakoram-Tibet (HKT) Workshop"
 date: 2026-10-16
 location: "Chengdu, China"
-excerpt: "Poster presentation held in Chengdu from October 16 to 19, 2026."
+excerpt: "Received the Best Poster Presentation Award. The workshop was held in Chengdu from October 16 to 19, 2026."
 ---
